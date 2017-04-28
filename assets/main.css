@@ -1,0 +1,44 @@
+.max-width {
+    max-width: 35rem; 
+    margin: 0 auto; }
+
+h1, h2, h3, h4 {
+    text-align: center;
+    line-height: 1.5; }
+
+h2 {
+    text-transform: capitalize; }
+
+h1, h2, h4 {
+    font-family: 'Rubik';
+    font-weight: 700; }
+
+p, h3, li {
+    font-family: 'Roboto', serif;
+    line-height: 2; }
+
+.footer {
+    line-height: 1;
+    color: gray;
+    text-align: center; }
+
+a, a:visited, a:hover, a:active {
+    color: gray; }
+
+.post-list {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+nav {
+    text-align: center; }
+
+.nav-link: {
+    text-transform: capitalize;
+    font-family: 'Rubik', serif;
+    font-variant: small-caps;
+}
+
+.indexcat {
+    text-transform: none !important;
+}

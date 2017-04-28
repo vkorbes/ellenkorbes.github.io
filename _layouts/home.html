@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="max-width">
+
+<h2 class="indexcat"><a name="journal">journal</a></h2>
+ <ul>
+    {% for post in site.posts %}
+      <li>
+          <p class="post-list">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+         {{ post.date | date: "%b %-d, %Y" }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+    <hr>
+    
+    <h2 class="indexcat"><a name="portfolio">portfolio</a></h2>
+    
+    <p>These were made as part of freeCodeCamp's training:</p>
+    
+    <p data-height="265" data-theme-id="light" data-slug-hash="vgMgde" data-default-tab="result" data-user="ellenkorbes" data-embed-version="2" data-pen-title="freeCodeCamp - Personal Portfolio - Elizabeth Jennings" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ellenkorbes/pen/vgMgde/">freeCodeCamp - Personal Portfolio - Elizabeth Jennings</a> by Ellen Korbes (<a href="http://codepen.io/ellenkorbes">@ellenkorbes</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    
+    <p data-height="265" data-theme-id="light" data-slug-hash="vgremq" data-default-tab="result" data-user="ellenkorbes" data-embed-version="2" data-pen-title="freeCodeCamp - Tribute Page - Zapp Brannigan" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ellenkorbes/pen/vgremq/">freeCodeCamp - Tribute Page - Zapp Brannigan</a> by Ellen Korbes (<a href="http://codepen.io/ellenkorbes">@ellenkorbes</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    
+</div>
