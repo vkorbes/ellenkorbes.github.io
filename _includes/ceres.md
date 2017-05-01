@@ -221,3 +221,7 @@ Utensils:
 Code:
 
 - [Basic algorithms](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/02_basic_algorithms) from the front-end section of freeCodeCamp.
+
+My to-do list:
+
+- [`Issues`](https://github.com/ellenkorbes/ellenkorbes.github.io/issues) tab on the repo hosting this webpage.
