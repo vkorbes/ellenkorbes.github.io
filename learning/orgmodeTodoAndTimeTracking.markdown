@@ -180,7 +180,10 @@ And now you can use C-c a t to view only your open todo items, sorted by priorit
 | C-c [    | add current file to agenda      |
 | C-c ]    | remove current file from agenda |
 | C-c a t  | show open todo items            |
+| C-(c x a)| archive current item            |
 |----------+---------------------------------|
+
+And finally, once a task tree is done, you should archive. It'll be moved to a file that's the name of the current file plus _archive.
 
 (Note: If you're on spacemacs, you might need to bind a key to access the org mode agenda.
 Like so: M-x global-set-key RET C-c a org-agenda RET)
