@@ -7,7 +7,7 @@ categories: journal
 
 Hello there. As you can guess, this is me chronicling my hurdles and achievements—mostly hurdles—while learning the whole she-bang one needs to master to justify the title of full-stack developer.
 
-I can’t remember how I started down this road, but abyway, this is me attempting to learn a new craft.
+I can’t remember how I started down this road, but anyway, this is me attempting to learn a new craft.
 
 I had stumbled upon JavaScript a few times the past few months. You know, JavaScript, the toy scripting language from the early 2000’s? Except not anymore. It grew up. It’s a serious tool now. So I took a look around, signed up for a few edX courses I gave up after two days, and eventually came across [freeCodeCamp](www.freecodecamp.com).
 

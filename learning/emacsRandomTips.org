@@ -1,0 +1,72 @@
+Here's a random assortment of emacs tips. It's the stuff I use all the time but keep forgetting.
+
+** Search & Replace
+
+|----------|--------------------|
+| Shortcut | Function           |
+|----------|--------------------|
+| C-s      | search             |
+| M-%      | search and replace |
+|----------|--------------------|
+
+** Copy & Paste
+
+|----------|----------|
+| Shortcut | Function |
+|----------|----------|
+| M-w      | copy     |
+| C-y      | paste    |
+| C-w      | cut      |
+|----------|----------|
+
+** Window Management
+
+|----------|----------------------------------|
+| Shortcut | Function                         |
+|----------|----------------------------------|
+| C-x 0    | deletes selected window          |
+| C-x 1    | deletes all windows but this one |
+| C-x 2    | splits window vertically         |
+| C-x 3    | splits window horizontally       |
+|----------|----------------------------------|
+| C-x ^    | make window taller               |
+| C-x }    | make window wider                |
+| C-x {    | make window narrower             |
+| C-x +    | make windows the same size       |
+|----------|----------------------------------|
+| C-x o    | move to other window             |
+| C-M-v    | scroll next window               |
+| Mouse-1  | select clicked window            |
+|----------|----------------------------------|
+
+~C-x 2~ and ~C-x 3~ take arguments (C-u #number) for the window size. A positive number defines the size of the current window, a negative number defines the size of the new one.
+
+For the resizing commands you should also use an argument. Pressing the same shortcut ten times in a row is no fun.
+
+** Undo Trick
+
+~C-/~ (undo) may not work depending on which terminal you use. Instead you should wire into your fingers something that works everywhere, ~control + shift + dash~, or in emacs lingo: ~C-_~.
+
+** Break lines at word boundaries
+
+Add to your init file:
+
+#+BEGIN_SRC emacs-lisp
+(global-visual-line-mode t)
+#+END_SRC
+
+** Some interesting key bindings
+
+*** My favourite scrolling pattern:
+
+Add to your init file:
+
+#+BEGIN_SRC emacs-lisp
+;; keep cursor position when scrolling
+(setq scroll-preserve-screen-position 1)
+;; scroll one line at a time
+(global-set-key (kbd "<down>") (kbd "C-u 1 C-v"))
+(global-set-key (kbd "<up>") (kbd "C-u 1 M-v"))
+(global-set-key (kbd "<mouse-5>") (kbd "C-u 1 C-v"))
+(global-set-key (kbd "<mouse-4>") (kbd "C-u 1 M-v"))
+#+END_SRC
