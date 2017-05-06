@@ -1,0 +1,43 @@
+.jumbotron {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem;
+}
+
+.figure-caption {
+  text-align: center;
+}
+
+.alignText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  max-width: 50rem;
+}
+
+.theText {
+  max-width: 47rem;
+  margin: 0 auto;
+}
+
+hr {
+  width: 50rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+figure {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footerText {
+  text-align: center;
+  font-size: 0.75rem;
+}

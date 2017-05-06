@@ -1,0 +1,53 @@
+p,
+span,
+h3 {
+  font-family: monospace; // 'VT323', monospace;
+  font-size: 3rem;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap; //justify-content: space-between;
+  align-items: center; //border: 1px solid black;
+}
+
+span {
+  padding: 0.2rem;
+  line-height: 3.82rem; //border: 1px solid black;
+}
+
+section {
+  flex: 1 1 0;
+}
+
+#twoTwo {
+  border: 0.2rem solid black;
+}
+
+#oneTwo,
+#threeTwo {
+  border-left: 0.2rem solid black;
+  border-right: 0.2rem solid black;
+}
+
+#twoOne,
+#twoThree {
+  border-top: 0.2rem solid black;
+  border-bottom: 0.2rem solid black;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  //border-top: 1rem solid #555;
+  //border-left: 1rem solid #777;
+  //border-right: 1rem solid #777;
+  //border-bottom: 1rem solid #999;
+  padding: 1rem;
+  line-height: 1rem; //border-radius: 0.5rem;
+}

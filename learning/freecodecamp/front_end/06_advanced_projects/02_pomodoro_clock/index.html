@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pomodoro Clock</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Share+Tech" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="javascript.js"></script>
+
+</head>
+
+<body>
+  <main>
+
+    <section>
+      <a href="#">
+        <p id="statusMinutes"><span id="minutesSpan"></span></p>
+      </a>
+    </section>
+
+    <section id="rightArea">
+      <p id="statusText"><span id="phaseSpan">nothing</span>,</p>
+      <p id="statusText"><span id="statusSpan">stopped</span>.</p>
+
+      <p class="selectors">work: <span id="timerLength">25</span>
+        <button type="button" class="pomodoro" id="plusPomodoro">&uarr;</button>
+        <button type="button" class="pomodoro" id="minusPomodoro">&darr;</button></p>
+
+      <p class="selectors">break: <span id="breakLength">5</span>
+        <button type="button" class="break" id="plusBreak">&uarr;</button>
+        <button type="button" class="break" id="minusBreak">&darr;</button></p>
+    </section>
+
+    <p id="statusSeconds"><span id="timer"></span>s</p>
+
+
+
+  </main>
+</body>
+
+</html>

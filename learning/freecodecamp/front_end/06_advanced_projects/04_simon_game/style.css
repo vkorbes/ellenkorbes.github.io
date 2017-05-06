@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#up {
+  display: flex;
+}
+
+#down {
+  display: flex;
+}
+
+#one {
+  width: 15rem;
+  height: 15rem;
+  background-color: #00aa00;
+  border-top-left-radius: 100%;
+  border-top: 2rem solid black;
+  border-left: 2rem solid black;
+  border-right: 1rem solid black;
+  border-bottom: 1rem solid black;
+}
+
+#two {
+  width: 15rem;
+  height: 15rem;
+  background-color: #aa0000;
+  border-top-right-radius: 100%;
+  border-top: 2rem solid black;
+  border-left: 1rem solid black;
+  border-right: 2rem solid black;
+  border-bottom: 1rem solid black;
+}
+
+#three {
+  width: 15rem;
+  height: 15rem;
+  background-color: #c8c800;
+  border-bottom-left-radius: 100%;
+  border-top: 1rem solid black;
+  border-left: 2rem solid black;
+  border-right: 1rem solid black;
+  border-bottom: 2rem solid black;
+}
+
+#four {
+  width: 15rem;
+  height: 15rem;
+  background-color: #0000aa;
+  border-bottom-right-radius: 100%;
+  border-top: 1rem solid black;
+  border-left: 1rem solid black;
+  border-right: 2rem solid black;
+  border-bottom: 2rem solid black;
+}
+
+#control {
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  top: 50%;
+  left: 50%;
+  width: 15rem;
+  height: 15rem;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  background-color: black;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+#display {
+  font-family: monospace;
+  background-color: #000;
+  border: none;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 3rem;
+  border: 0.1rem solid white;
+  padding: 0rem;
+  margin: 0.5rem;
+  width: calc(5rem - 2px);
+  text-align: center;
+  height: calc(3rem - 2px);
+}
+
+#buttonStart,
+#buttonMode {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  border: 0.1rem solid white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 5rem;
+  height: 3rem;
+}
+
+.startlight,
+.strictlight {
+  font-size: 1em;
+  color: grey;
+  border-radius: 100%;
+  margin: 0.5rem;
+  padding: 0 2rem;
+}
+
+#firstRow {
+  display: flex;
+  flex-flow: row nowrap; //border: 1px solid red;
+  justify-content: space-around;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+#secondRow {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 0.65rem;
+}

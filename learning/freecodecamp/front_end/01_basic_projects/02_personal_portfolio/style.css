@@ -1,0 +1,242 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff; //width: 100%;
+  text-align: center;
+  background-image: url(http://previews.123rf.com/images/hchjjl/hchjjl1506/hchjjl150607137/41316656-sickle-hammer-doodle-seamless-pattern-background-Stock-Vector.jpg);
+  background-repeat: repeat;
+  background-size: 20rem;
+  padding-top: 4em;
+}
+
+#hmmm {
+  max-width: 60rem;
+  text-align: left;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-top: 0;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -4rem;
+  visibility: hidden;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.nav {
+  //display: flex;
+  //flex-direction: row;
+  background-color: #700; //align-items: center;
+  color: #fff;
+}
+
+.nav ul {
+  //flex: 1 1 0;
+  //list-style: none;
+  //display: flex;
+  //flex-direction: row;
+  //justify-content: flex-end;
+  //margin-bottom: 0;
+}
+
+.nav li {
+  padding: 0.25rem 1rem;
+}
+
+.navbar-brand {
+  flow: 1 1 0;
+  font-size: 2em;
+  font-variant: small-caps;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a:link,
+.nav a:visited {
+  color: white;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav a:active {}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  background-color: #ddd;
+}
+
+.about ul {
+  flex: 2 1 0;
+  padding: 0 2rem 0 1rem;
+  list-style-type: none;
+}
+
+.img {
+  flex: 1 1 0;
+}
+
+.img img {
+  width: 100%;
+}
+
+.portfolio {
+  background-color: #eee;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.portfolio .lead {
+  flex: 1 0 100%;
+  text-align: center;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+
+.portfolio img {
+  width: 25rem;
+  border-radius: 0.5em;
+}
+
+.portfolio figure {
+  flex: 0 0 0;
+  padding: 0.25rem;
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 0.5em;
+}
+
+.portfolio figcaption {
+  font-size: 0.8rem;
+  color: #666;
+  padding: 0.25rem;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #ddd;
+}
+
+.contact input,
+.contact textarea,
+.contact select,
+.contact button {
+  width: 100%;
+  margin: 0;
+}
+
+.contact .lead {
+  flex: 1 0 100%;
+  text-align: center;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+
+.contact form {
+  flex: 1 1 0;
+  padding: 2rem;
+}
+
+.contact .meh {
+  flex: 1 1 0;
+  padding: 2rem;
+  line-height: 2;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  margin: 0.5em 0;
+}
+
+.contact form p {
+  margin: 0.25rem 0;
+}
+
+footer {
+  background-color: #700;
+  color: #ddd;
+  text-align: center;
+}
+
+footer .footerp {
+  padding: 0.5rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.BS {
+  background-color: #eee;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+i.fa {
+  font-size: 3em;
+  /*font size for the icons*/
+}
+
+footer i.fa {
+  font-size: 1.25em;
+  /*font size for the icons*/
+}
+
+.BS .lead {
+  text-align: center;
+  font-size: 1em;
+  font-variant: small-caps;
+  margin-top: 1em;
+}
+
+.divabout {
+  flex: 1 1 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.divabout p {
+  margin: 0;
+}
+
+.divaround {
+  flex: 1 1 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.divaround i {
+  margin: 0.5rem;
+}
+
+.BS ul {
+  list-style: none;
+  padding: 0;
+}
+
+.BS li {
+  margin: 1em;
+}

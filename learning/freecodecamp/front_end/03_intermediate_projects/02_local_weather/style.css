@@ -1,0 +1,54 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  flex-flow: row wrap;
+  background-color: #162406;
+  background-size: cover;
+}
+
+main {
+  flex: 0 1 auto; //max-width: 75%;
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: rgba(0, 0, 255, 0.8);
+  color: orange;
+  border-radius: 0.75rem;
+}
+
+#location {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#temperature {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+#humiditywind {
+  font-size: 1rem;
+  margin: 0;
+}
+
+#unit {
+  font-size: 1rem;
+  margin: 0;
+}
+
+#description {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+a:hover,
+a:link,
+a:visited,
+a:active {
+  text-decoration: underline;
+  color: #7e5a8c;
+}
