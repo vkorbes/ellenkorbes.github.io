@@ -37,7 +37,7 @@
 
 ## What?
 
-As the website subtitle suggests, this is me learning to code and writing about it. 
+As the website subtitle suggests, this is me learning to code and writing about it.
 
 The focus isn’t on code exactly, or code snippets or what have you; it’s on *how to learn* to code. What to focus on, rules of thumb, what matters and what doesn’t.
 
@@ -71,7 +71,7 @@ There are many options here: vim or emacs. The correct choice, of course, being 
 
 Both emacs and vim have very steep learning curves, but to get to the point: They’re tools worth learning, and they’ll be extremely useful through the rest of your life. So get off your arse and put in the effort already.
 
-As of this writing I’m using [spacemacs](http://spacemacs.org/), though not yet entirely convinced on it as opposed to stock emacs + some modifications. 
+As of this writing I’m using [spacemacs](http://spacemacs.org/), though not yet entirely convinced on it as opposed to stock emacs + some modifications.
 
 Orgmode is very much worth learning, too. It’s a calendar/agenda/todo list/time tracker/espresso maker and it’ll iron your clothes too.
 
@@ -97,8 +97,8 @@ And also, GitHub will host your website for free; and right now I’ve taken to 
 
 Not sure this is actually a thing or just a hunch of mine: I have the idea that creating a special environment dedicated to a task helps focusing on it.
 
-So that could be: 
-- Create a new username on your computer for the coding work and keep it clean and distraction free. 
+So that could be:
+- Create a new username on your computer for the coding work and keep it clean and distraction free.
 - If possible: get a new laptop to use for this purpose.
 - Or: install a Linux distro on the current computer and go with that.
 
@@ -122,9 +122,9 @@ Silly idea for a project around this: make it so that whenever you clock in or o
 
 ### Document *everything*
 
-The reason to document your way down this path is two-fold: 
+The reason to document your way down this path is two-fold:
 
-One, to share it. You might stumble across awesome stuff that the rest of the world might as well learn too. 
+One, to share it. You might stumble across awesome stuff that the rest of the world might as well learn too.
 
 And second, for your own self-study. It helps you look at all you’ve learned, in those moments when you’re sure you got nothing done that month at all. And it’s often told that when you explain something, that’s when you really learn it. So even if no one’s reading it what you write, the act of writing by itself is worth it.
 
@@ -195,20 +195,27 @@ I’ve also recently started working on an [IRC bot](https://github.com/kris-nov
 
 ## freeCodeCamp Projects
 
-They’re mostly hosted in CodePen for now, but will be moved into this GitHub repo soon.
+Here are all my freeCodeCamp projects, in reverse chronological order.
 
-In chronological order:
+Advanced front-end projects:
 
-- [Tribute Page](https://codepen.io/ellenkorbes/pen/vgremq)
-- [Personal Portfolio](https://codepen.io/ellenkorbes/pen/vgMgde)
-- [Random Quote Machine](https://codepen.io/ellenkorbes/pen/LxoqKK)
-- [Local Weather](http://codepen.io/ellenkorbes/pen/YZzoeB)
-- [Wikipedia Viewer](https://codepen.io/ellenkorbes/pen/OpPBpQ)
-- [Twitch.tv JSON API](https://codepen.io/ellenkorbes/pen/jBbNLK)
-- [JavaScript Calculator](https://codepen.io/ellenkorbes/pen/Nppmwj)
-- [Pomodoro Clock](https://codepen.io/ellenkorbes/pen/aJWVVw)
-- [Tic Tac Toe Game](https://codepen.io/ellenkorbes/pen/EWmOOv)
-- [Simon Game](http://ellenkorbes.com/simon.html)
+<script src="https://use.fontawesome.com/2dc41cc4d7.js"></script>
+- [Simon Game](learning/freecodecamp/front_end/06_advanced_projects/04_simon_game/) [<i class="fa fa-link"></i>](learning/freecodecamp/front_end/06_advanced_projects/04_simon_game/) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/06_advanced_projects/04_simon_game) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/build-a-simon-game)
+- [Tic Tac Toe Game](learning/freecodecamp/front_end/06_advanced_projects/03_tic_tac_toe/) [<i class="fa fa-link"></i>](learning/freecodecamp/front_end/06_advanced_projects/03_tic_tac_toe/) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/06_advanced_projects/03_tic_tac_toe) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game)
+- [Pomodoro Clock](learning/freecodecamp/front_end/06_advanced_projects/02_pomodoro_clock/) [<i class="fa fa-link"></i>](learning/freecodecamp/front_end/06_advanced_projects/02_pomodoro_clock/) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/06_advanced_projects/02_pomodoro_clock) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/build-a-pomodoro-clock)
+- [JavaScript Calculator](learning/freecodecamp/front_end/06_advanced_projects/01_javascript_calculator/) [<i class="fa fa-link"></i>](learning/freecodecamp/front_end/06_advanced_projects/01_javascript_calculator/) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/06_advanced_projects/01_javascript_calculator) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)
+
+Intermediate front-end projects:
+
+- [Twitch.tv JSON API](learning/freecodecamp/front_end/03_intermediate_projects/04_twitch.tv_api/) [<i class="fa fa-link"></i>](learning/freecodecamp/front_end/03_intermediate_projects/04_twitch.tv_api/) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/03_intermediate_projects/04_twitch.tv_api) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/use-the-twitchtv-json-api)
+- [Wikipedia Viewer](learning/freecodecamp/front_end/03_intermediate_projects/03_wikipedia_viewer/) [<i class="fa fa-link"></i>](learning/freecodecamp/front_end/03_intermediate_projects/03_wikipedia_viewer/) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/03_intermediate_projects/03_wikipedia_viewer) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer)
+- [Local Weather](learning/freecodecamp/front_end/03_intermediate_projects/02_local_weather/) [<i class="fa fa-link"></i>](learning/freecodecamp/front_end/03_intermediate_projects/02_local_weather/) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/03_intermediate_projects/02_local_weather) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/show-the-local-weather)
+- [Random Quote Machine](learning/freecodecamp/front_end/03_intermediate_projects/01_random_quote_machine/) [<i class="fa fa-link"></i>](learning/freecodecamp/front_end/03_intermediate_projects/01_random_quote_machine/) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/03_intermediate_projects/01_random_quote_machine) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/build-a-random-quote-machine)
+
+Basic front-end projects:
+
+- [Personal Portfolio](https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage) [<i class="fa fa-link"></i>](https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/01_basic_projects/02_personal_portfolio) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage)
+- [Tribute Page](https://www.freecodecamp.com/challenges/build-a-tribute-page) [<i class="fa fa-link"></i>](https://www.freecodecamp.com/challenges/build-a-tribute-page) // [<i class="fa fa-github"></i>](https://github.com/ellenkorbes/ellenkorbes.github.io/tree/master/learning/freecodecamp/front_end/01_basic_projects/01_tribute_page) // [<i class="fa fa-free-code-camp"></i>](https://www.freecodecamp.com/challenges/build-a-tribute-page)
 
 # Links
 
