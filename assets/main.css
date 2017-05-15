@@ -54,11 +54,9 @@ max-width: 38rem;
     padding-bottom: 1.1rem;
 }
 
-.wrapIt {
-//    flex: 0 1 auto;
-//    max-width: 38rem;
-//    padding: 0;
-//    margin: 0;
+.top {
+    visibility: hidden;
+
 }
 
 footer {
