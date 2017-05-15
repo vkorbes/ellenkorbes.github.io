@@ -15,11 +15,20 @@ body {
 
 main, footer, header {
     flex: 0 1 auto;
-    width: 38rem;
+width: 70vw;
+max-width: 38rem;
     padding: 0 2rem;
     background-color: rgba(30, 30, 39, 0.8);
     margin-top: 5.5rem;
     padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+}
+
+.wrapIt {
+//    flex: 0 1 auto;
+//    max-width: 38rem;
+//    padding: 0;
+//    margin: 0;
 }
 
 footer {
@@ -44,7 +53,7 @@ p, li {
 }
 
 .footer {
-    line-height: 1;
+    line-height: 1.5;
     text-align: center; }
 
 a, a:visited, a:hover, a:active {
@@ -73,8 +82,10 @@ nav {
 
 ul {
     list-style-type: none;
+    //  padding: 0.55rem 0 1.1rem 0;
     padding: 0;
-    margin: 0.55rem 0 1.1rem 0;
+    margin: 0;
+    margin-top: 0.55rem;
 }
 
 .nav-items li {
