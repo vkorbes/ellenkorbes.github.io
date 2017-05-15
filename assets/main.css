@@ -1,4 +1,26 @@
-    html {
+@media only screen and (max-width: 1024px)  {
+
+    .wrapIt {
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+        background: url(bg.jpg);
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+}
+
+html {
         background: url(bg.jpg) no-repeat center center fixed;
         background-size: cover;
         height: 100%;
