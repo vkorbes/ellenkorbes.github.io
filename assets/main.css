@@ -6,7 +6,7 @@ body {
     height: 100vh;
     flex-flow: column nowrap;
     background-color: #162406;
-    background-size: scroll;
+    background-size: fixed;
     margin: 0;
 
 }
