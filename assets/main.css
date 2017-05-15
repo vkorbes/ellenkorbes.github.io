@@ -1,42 +1,86 @@
-.max-width {
-    max-width: 35rem; 
-    margin: 0 auto; }
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-flow: column nowrap;
+    background-color: #162406;
+    background-size: cover;
+    margin: 0;
+
+}
+
+main, footer, header {
+    flex: 0 1 auto;
+    width: 38rem;
+    padding: 0 2rem;
+    background-color: rgba(30, 30, 39, 0.8);
+    margin-top: 5.5rem;
+    padding-top: 1.1rem;
+}
+
+footer {
+    margin-bottom: 7.7rem;
+    padding-bottom: 0.55rem;
+    padding-top: 0.55rem;
+}
 
 h1, h2, h3, h4 {
-    text-align: center;
-    line-height: 1.5; }
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+    text-transform: uppercase; }
 
-h2 {
-    text-transform: capitalize; }
-
-h1, h2, h4 {
-    font-family: 'Rubik';
-    font-weight: 700; }
-
-p, h3, li {
-    font-family: 'Roboto', serif;
-    line-height: 2; }
+p, li {
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 2rem;
+    color: white;
+    font-weight: 200;
+    font-size: 1.1rem;
+}
 
 .footer {
     line-height: 1;
-    color: gray;
     text-align: center; }
 
 a, a:visited, a:hover, a:active {
-    color: gray; }
+                           text-decoration: none;
+                           color: #CB92AF;
+                       }
 
-.post-list {
-    text-align: left;
-    text-transform: capitalize;
+a:hover {
+    text-decoration: underline;
+}
+
+.navSpan {
+    flex: 1 1 0;
 }
 
 nav {
-    text-align: center; }
+    text-transform: uppercase;
+}
 
-.nav-link: {
-    text-transform: capitalize;
-    font-family: 'Rubik', serif;
-    font-variant: small-caps;
+.nav-items {
+    flow: 1 1 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.55rem 0 1.1rem 0;
+}
+
+.nav-items li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.45rem;
+    line-height: 1;
 }
 
 .indexcat {
