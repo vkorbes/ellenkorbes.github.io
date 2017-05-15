@@ -1,14 +1,23 @@
+    html {
+        background: url(bg.jpg) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+
 body {
-    background: url("bg.jpg") no-repeat center fixed;
-    background-position: center center;
+//    background: url("bg.jpg") no-repeat center center fixed;
     display: flex;
     align-items: center;
-    height: 100vh;
+//    height: 100vh;
     flex-flow: column nowrap;
-    background-color: #162406;
-    background-size: cover;
+//    background-color: #162406;
+//    background-size: cover;
     margin: 0;
 
+    height:100%;
+    overflow: auto;
+    
 }
 
 main, footer, header {
@@ -46,7 +55,7 @@ p, li {
     font-family: 'Titillium Web', sans-serif;
     line-height: 2rem;
     color: white;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.1rem;
 }
 
