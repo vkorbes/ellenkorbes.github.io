@@ -16,7 +16,7 @@ I routinely run half marathons.
 
 I learned English all by myself, and have never set foot in an English-speaking country.
 
-I can memorize the order of a deck of cards in about ten minutes.
+I can memorize the order of a deck of cards in just under nine minutes.
 
 I often collaborate with the awesome [Kris Nova](https://twitter.com/Kris__Nova). Our projects largely consist of her telling me how not to set everything on fire.
 
