@@ -83,6 +83,9 @@ for index, card := range deck {
 }
 
 fmt.Println("Final tally:", totalTime, "to memorize.", mistakes, "mistakes.")
-fmt.Println("Mistakes were:", wrongCards)
+
+if mistakes != 0 {
+  fmt.Println("Mistakes were:", wrongCards)
+  }
 
 }
