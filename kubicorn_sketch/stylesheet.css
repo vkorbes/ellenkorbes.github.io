@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(227, 219, 221, 0.38);
+    margin-top: 6rem;
+}
+
+.navbar {
+    background-color: #87f3c9;
+}
+
+.font-awesome .fa {
+    font-size: 4rem;
+    color: white;
+
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.balls {
+    border-radius: 100%;
+    width: 7rem;
+    height: 7rem;
+}
+
+.fabulous-red {
+    background-color: #ffb7b8;
+}
+
+.fabulous-orange {
+    background-color: #fee2b5;
+}
+
+.fabulous-lime {
+    background-color: #d5f3b3;
+}
+
+.fabulous-green {
+    background-color: #87f3c9;
+}
+
+.fabulous-purple {
+    background-color: #c1b9f5;
+}
+
+.aaaaa {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.light-bg {
+    background-color: rgba(227, 219, 221, 0.61);
+    border-radius: 1rem;
+}
+
+.different li {
+    margin-top: 1.5rem;
+}
