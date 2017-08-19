@@ -60,11 +60,12 @@
           </div>
         </li>
       </ul>
-      <a href=""><i aria-hidden="true" class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-      <a href=""><i aria-hidden="true" class="fa fa-github"></i></a>&nbsp;&nbsp;
-      <a href=""><i aria-hidden="true" class="fa fa-slack"></i></a>&nbsp;&nbsp;
-      <a href=""><i aria-hidden="true" class="fa fa-stack-overflow"></i></a>&nbsp;&nbsp;
-      <a href=""><i aria-hidden="true" class="fa fa-envelope"></i></a>&nbsp;&nbsp;
+      <a class="nav-link px-1" href=""><i aria-hidden="true" class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+      <a class="nav-link px-1" href=""><i aria-hidden="true" class="fa fa-github"></i></a>&nbsp;&nbsp;
+      <a class="nav-link px-1" href=""><i aria-hidden="true" class="fa fa-slack"></i></a>&nbsp;&nbsp;
+      <a class="nav-link px-1" href=""><i aria-hidden="true" class="fa fa-stack-overflow"></i></a>&nbsp;&nbsp;
+      <a class="nav-link px-1" href=""><i aria-hidden="true" class="fa fa-envelope"></i></a>&nbsp;&nbsp;
+      
     </div>
   </nav>
 
@@ -135,13 +136,13 @@ Y88b.   Y88..88P 888    Y8b.           Y8bd8P  888  888 888 Y88b 888 Y8b.       
 
       <div class="row mb-5">
 
-          <div class="font-awesome col-md-3 my-3 hidden-md-up">
-              <div class="balls d-flex mx-auto fabulous-orange">
-                <div class="mx-auto my-auto align-self-center">
-                  <i aria-hidden="true" class="fa fa-child text-center"></i></span>
-                </div>
-              </div>
+        <div class="font-awesome col-md-3 my-3 hidden-md-up">
+          <div class="balls d-flex mx-auto fabulous-orange">
+            <div class="mx-auto my-auto align-self-center">
+              <i aria-hidden="true" class="fa fa-child text-center"></i></span>
             </div>
+          </div>
+        </div>
 
         <div class="col d-flex my-auto flex-column mx-3">
           <p class="h3">Developer empathy.</p>
@@ -179,13 +180,13 @@ Y88b.   Y88..88P 888    Y8b.           Y8bd8P  888  888 888 Y88b 888 Y8b.       
 
       <div class="row mb-5">
 
-          <div class="font-awesome col-md-3 my-3 hidden-md-up">
-              <div class="balls d-flex mx-auto fabulous-orange">
-                <div class="mx-auto my-auto align-self-center">
-                  <i aria-hidden="true" class="fa fa-server text-center"></i></span>
-                </div>
-              </div>
+        <div class="font-awesome col-md-3 my-3 hidden-md-up">
+          <div class="balls d-flex mx-auto fabulous-orange">
+            <div class="mx-auto my-auto align-self-center">
+              <i aria-hidden="true" class="fa fa-server text-center"></i></span>
             </div>
+          </div>
+        </div>
 
         <div class="col d-flex my-auto flex-column mx-3">
           <p class="h3">Infrastructure as software.</p>
@@ -220,7 +221,7 @@ Y88b.   Y88..88P 888    Y8b.           Y8bd8P  888  888 888 Y88b 888 Y8b.       
         </div>
       </div>
     </div>
-<!-- 
+    <!-- 
                                                     888             
                                                     888             
                                                     888             
@@ -234,45 +235,49 @@ Y88b.   Y88..88P 888  888 Y88b.   Y8b.     888 d88P Y88b.       X88
                                            888                      
  -->
 
- <div>
+    <div>
 
-    <h1 class="my-5 text-center">Concepts</h1>
+      <h1 class="my-5 text-center">Concepts</h1>
 
-    <div class="row">
-      <div class="col">
-        <h3 class="text-center">Create</h3>
-        <p><code>kubicorn</code> lets a user create a Kubernetes cluster in a cloud of their choice.</p>
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center">Create</h3>
+          <p><code>kubicorn</code> lets a user create a Kubernetes cluster in a cloud of their choice.</p>
+        </div>
+        <div class="col">
+          <h3 class="text-center">Apply</h3>
+          <p>Define what you want, then apply it. That simple.</p>
+        </div>
       </div>
-      <div class="col">
-        <h3 class="text-center">Apply</h3>
-        <p>Define what you want, then apply it. That simple.</p>
-      </div>
-    </div>
 
-    <div class="row">
+      <div class="row">
         <div class="col">
           <h3 class="text-center">Adopt</h3>
           <p><code>kubicorn</code> can adopt any Kubernetes cluster at any time.</p>
         </div>
         <div class="col">
           <h3 class="text-center">Scale</h3>
-          <p><code>kubicorn</code> is powered by a state enforcement pattern. A user defines the intended state of Kubernetes infrastructure, and <code>kubicorn</code> can enforce the intended state.</p>
+          <p><code>kubicorn</code> is powered by a state enforcement pattern. A user defines the intended state of Kubernetes
+            infrastructure, and <code>kubicorn</code> can enforce the intended state.</p>
         </div>
       </div>
 
       <div class="row mb-5">
-          <div class="col">
-            <h3 class="text-center">Snapshot</h3>
-            <p><code>kubicorn</code> allows a user to take a snapshot of a Kubernetes cluster, and run the image in any cloud at any time. A snapshot is compressed file that will represent intended infrastructure <strong>and</strong> intended application definitions. Take a snap, save a snap, deploy a snap.</p>
-          </div>
-          <div class="col">
-            <h3 class="text-center">Enforce</h3>
-            <p><code>kubicorn</code> is built as a library and a framework. Thus allowing it to be easily vendored into operator and controller patterns to enforce intended state of infrastructure.</p>
-          </div>
+        <div class="col">
+          <h3 class="text-center">Snapshot</h3>
+          <p><code>kubicorn</code> allows a user to take a snapshot of a Kubernetes cluster, and run the image in any cloud
+            at any time. A snapshot is compressed file that will represent intended infrastructure <strong>and</strong> intended
+            application definitions. Take a snap, save a snap, deploy a snap.</p>
         </div>
+        <div class="col">
+          <h3 class="text-center">Enforce</h3>
+          <p><code>kubicorn</code> is built as a library and a framework. Thus allowing it to be easily vendored into operator
+            and controller patterns to enforce intended state of infrastructure.</p>
+        </div>
+      </div>
 
- </div>
-<!-- 
+    </div>
+    <!-- 
      888 d8b  .d888  .d888                                  888    
      888 Y8P d88P"  d88P"                                   888    
      888     888    888                                     888    
@@ -282,24 +287,186 @@ d88" 888 888 888    888   d8P  Y8b 888P"  d8P  Y8b 888 "88b 888
 Y88b 888 888 888    888   Y8b.     888    Y8b.     888  888 Y88b.  
  "Y88888 888 888    888    "Y8888  888     "Y8888  888  888  "Y888 
  -->
- <div class="pb-3 different light-bg pb-5 px-5 mb-5">
-    <h1 class="mb-5 pt-5 text-center">How is Kubicorn different?</h1>
+    <div class="pb-3 different light-bg pb-5 px-5 mb-5">
+      <h1 class="mb-5 pt-5 text-center">How is Kubicorn different?</h1>
 
-    <ol class="mb-0">
-      <li>We use <code>kubeadm</code> to bootstrap our clusters.</li>
-      <li>We strive for developer empathy, and clean and simple code.</li>
-      <li>We strive for operational empathy, and clean and simple user experience.</li>
-      <li>We start with <code>struct</code> literals for profiles, and then marshal into an object.</li>
-      <li>We offer the tooling as a library, more than a command line tool.</li>
-      <li>We are atomic, and will un-do any work if there is an error.</li>
-      <li>We run on many operating systems.</li>
-      <li>We allow users to define their own arbitrary bootstrap logic.</li>
-      <li>We have no guarantee that anything works, ever, use at your own risk.</li>
-      <li>We have no dependency on DNS.</li>
-      <li>We believe in snapshots, and that a user should be able to capture a cluster, and move it.</li>
-    </ol>
- </div>
+      <ol class="mb-0">
+        <li>We use <code>kubeadm</code> to bootstrap our clusters.</li>
+        <li>We strive for developer empathy, and clean and simple code.</li>
+        <li>We strive for operational empathy, and clean and simple user experience.</li>
+        <li>We start with <code>struct</code> literals for profiles, and then marshal into an object.</li>
+        <li>We offer the tooling as a library, more than a command line tool.</li>
+        <li>We are atomic, and will un-do any work if there is an error.</li>
+        <li>We run on many operating systems.</li>
+        <li>We allow users to define their own arbitrary bootstrap logic.</li>
+        <li>We have no guarantee that anything works, ever, use at your own risk.</li>
+        <li>We have no dependency on DNS.</li>
+        <li>We believe in snapshots, and that a user should be able to capture a cluster, and move it.</li>
+      </ol>
+    </div>
 
+    <!--
+ .d888         d8b                        888          
+d88P"          Y8P                        888          
+888                                       888          
+888888 888d888 888  .d88b.  88888b.   .d88888 .d8888b  
+888    888P"   888 d8P  Y8b 888 "88b d88" 888 88K      
+888    888     888 88888888 888  888 888  888 "Y8888b. 
+888    888     888 Y8b.     888  888 Y88b 888      X88 
+888    888     888  "Y8888  888  888  "Y88888  88888P' 
+-->
+<h1 class="my-5 text-center">Friends of Kubicorn</h1>
+
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+
+
+      
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne">
+          <h5 class="mb-0">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Corporation Inc.
+          </a>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+          <div class="card-block">
+            <div class="row">
+              <div class="col-4 col-lg-2">
+                <img src="https://placebear.com/g/200/200" class="img-fluid" alt="Responsive image">
+              </div>
+              <div class="col align-self-center">
+                <h5>The Corp-o'-matic 9000 Project</h5>
+                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                  officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                  3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et.</p>
+                <a href="">
+                  <p>Click here for more.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            tech n3rds .io
+          </a>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="card-block">
+            <div class="row">
+              <div class="col-4 col-lg-2">
+                <img src="https://placebear.com/g/200/200" class="img-fluid" alt="Responsive image">
+              </div>
+              <div class="col align-self-center">
+                <h5>The Corp-o'-matic 9000 Project</h5>
+                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                  officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                  3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et.</p>
+                <a href="">
+                  <p>Click here for more.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Winamp – It really whips the llama's ass
+          </a>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="card-block">
+            <div class="row">
+              <div class="col-4 col-lg-2">
+                <img src="https://placebear.com/g/200/200" class="img-fluid" alt="Responsive image">
+              </div>
+              <div class="col align-self-center">
+                <h5>The Corp-o'-matic 9000 Project</h5>
+                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                  officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                  3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et.</p>
+                <a href="">
+                  <p>Click here for more.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="card">
+          <div class="card-header" role="tab" id="headingFour">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              Umbrella Corporation
+            </a>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="card-block">
+              <div class="row">
+                <div class="col-4 col-lg-2">
+                  <img src="https://placebear.com/g/200/200" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col align-self-center">
+                  <h5>The Corp-o'-matic 9000 Project</h5>
+                  <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                    officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                    3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                    et.</p>
+                  <a href="">
+                    <p>Click here for more.</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="card">
+            <div class="card-header" role="tab" id="headingFive">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                The Empire
+              </a>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+              <div class="card-block">
+                <div class="row">
+                  <div class="col-4 col-lg-2">
+                    <img src="https://seeklogo.com/images/G/Galactic_Empire-logo-7A19A28ABA-seeklogo.com.png" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="col align-self-center">
+                    <h5>The Corp-o'-matic 9000 Project</h5>
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                      officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                      3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                      et.</p>
+                    <a href="">
+                      <p>Click here for more.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
     <!-- 
      888                   .d8888b.                    
      888                  d88P  Y88b                   
@@ -310,28 +477,62 @@ d88" 888 d88""88b d88P"   .d8P""Y8b. d88""88b 888 "88b
 Y88b 888 Y88..88P Y88b.   Y88b  d88P Y88..88P 888  888 
  "Y88888  "Y88P"   "Y8888P "Y8888P"   "Y88P"  888  888 
  -->
-<div class="mb-5">
+    <div class="mb-5">
 
-    <h1 class="mb-3 mt-3 text-center">Documentation</h1>
+      <h1 class="my-5 text-center">Documentation</h1>
 
-    <p><span class="lead"><a href="docs/INSTALL.md">Install</a></span><br><span class="text-muted"><span class="text-muted">Install guide for Kubicorn CLI</span></p>
-
-    <p><span class="lead"><a href="docs/envar.md">Environmental Variables</a></span><br><span class="text-muted">Master list of supported environmental variables</span></p>
-
-    <p><span class="lead"><a href="https://nivenly.com/kubicorn">Kops vs Kubicorn</a></span><br><span class="text-muted">Blog about kubicorn with comparison table</span></p>
-
-    <p><span class="lead"><a href="docs/aws/walkthrough.md">AWS Walkthrough</a></span><br><span class="text-muted">A walkthrough guide on install Kubernetes 1.7 in AWS</span></p>
-
-    <p><span class="lead"><a href="docs/do/walkthrough.md">DigitalOcean Walkthrough</a></span><br><span class="text-muted">A walkthrough guide on install Kubernetes 1.7 in D.O.</span></p>
-
-    <p><span class="lead"><a href="docs/google/walkthrough.md">Google Cloud engine  Walkthrough</a></span><br><span class="text-muted">A walkthrough guide on install Kubernetes 1.7 in GCE</span></p>
-
-    <p><span class="lead"><a href="https://www.useloom.com/share/a0afd5034e654b0b8d6785a5fa8ec754">AWS Video</a></span><br><span class="text-muted">A step by step video of using Kubicorn in AWS</a></span></p>
-
-    <p><span class="lead"><a href="https://youtu.be/2DmUG0RgS70?list=PLaR6Rq6Z4IqfwXtKT7KeARRvxdvyLqG72">Tech N Talk Deep Dive</a></span><br><span class="text-muted"> A technical deep dive courtesy of RedHat</span></p>
-
-</div>
-<!-- 
+      <dl class="row">
+        <dt class="col-sm-4">
+          <p><span class="lead"><a href="docs/INSTALL.md">Install</a></span>
+        </dt>
+        <dd class="col-sm-8">
+          <span class="text-muted"><span class="text-muted">Install guide for Kubicorn CLI</span></p>
+        </dd>
+        <dt class="col-sm-4">
+          <p><span class="lead"><a href="docs/envar.md">Environmental Variables</a></span>
+        </dt>
+        <dd class="col-sm-8">
+          <span class="text-muted">Master list of supported environmental variables</span></p>
+        </dd>
+        <dt class="col-sm-4">
+          <p><span class="lead"><a href="https://nivenly.com/kubicorn">Kops vs Kubicorn</a></span>            
+        </dt>
+        <dd class="col-sm-8">
+          <span class="text-muted">Blog about kubicorn with comparison table</span></p>
+        </dd>
+        <dt class="col-sm-4">
+          <p><span class="lead"><a href="docs/aws/walkthrough.md">AWS Walkthrough</a></span>
+        </dt>
+        <dd class="col-sm-8">
+          <span class="text-muted">A walkthrough guide on install Kubernetes 1.7 in AWS</span></p>
+        </dd>
+        <dt class="col-sm-4">
+          <p><span class="lead"><a href="docs/do/walkthrough.md">DigitalOcean Walkthrough</a></span>
+        </dt>
+        <dd class="col-sm-8">
+          <span class="text-muted">A walkthrough guide on install Kubernetes 1.7 in D.O.</span></p>          
+        </dd>
+        <dt class="col-sm-4">
+          <p><span class="lead"><a href="docs/google/walkthrough.md">Google Cloud engine  Walkthrough</a></span>
+        </dt>
+        <dd class="col-sm-8">
+          <span class="text-muted">A walkthrough guide on install Kubernetes 1.7 in GCE</span></p>
+        </dd>
+        <dt class="col-sm-4">
+          <p><span class="lead"><a href="https://www.useloom.com/share/a0afd5034e654b0b8d6785a5fa8ec754">AWS Video</a></span>            
+        </dt>
+        <dd class="col-sm-8">
+          <span class="text-muted">A step by step video of using Kubicorn in AWS</a></span>
+        </dd>
+        <dt class="col-sm-4">
+          <p><span class="lead"><a href="https://youtu.be/2DmUG0RgS70?list=PLaR6Rq6Z4IqfwXtKT7KeARRvxdvyLqG72">Tech N Talk Deep Dive</a></span>            
+        </dt>
+        <dd class="col-sm-8">
+          <span class="text-muted"> A technical deep dive courtesy of RedHat</span></p>
+        </dd>
+      </dl>
+    </div>
+    <!-- 
 d8b                   888             888 888 d8b                   
 Y8P                   888             888 888 Y8P                   
                       888             888 888                       
@@ -344,14 +545,14 @@ Y8P                   888             888 888 Y8P
                                                            Y8b d88P 
                                                             "Y88P"  
  -->
- <div class="mb-5">
-    <h1 class="mb-3 mt-3 text-center">Installing</h1>
+    <div class="mb-5">
+      <h1 class="mb-3 mt-3 text-center">Installing</h1>
 
-    <p><code>$ go get github.com/kris-nova/kubicorn</code></p>
+      <p><code>$ go get github.com/kris-nova/kubicorn</code></p>
 
-    <p>..or read the <a href="docs/INSTALL.md">Install Guide</a>.</p>
-</div>
-<!-- 
+      <p>..or read the <a href="docs/INSTALL.md">Install Guide</a>.</p>
+    </div>
+    <!-- 
  .d888                  888                    
 d88P"                   888                    
 888                     888                    
@@ -370,11 +571,8 @@ d88P"                   888
 
       </div>
       <div class="col-4">
-        <h3>Lawyer-speak Lorem Ipsum</h3>
-        <p>Restriction) The license agreements (excluding distributors and resellers) which have been properly granted shall
-          survive any termination of this agreement. If any provision of this license apply to the maximum extent possible;
-          and (b) in the Derived Work. If you created a Modification, you may arrange for the Work. Any procedure that produces
-          a Derived Work. Th</p>
+        <h3>Notices</h3>
+        <p>Blah blah copyright ® who cares.</p>
       </div>
     </div>
 
