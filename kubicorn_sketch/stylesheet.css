@@ -1,12 +1,17 @@
 
 
 body {
-    background-color: rgba(227, 219, 221, 0.38);
+    background-color: rgba(227, 219, 221, 0.16);
     margin-top: 6rem;
 }
 
 .navbar {
-    background-color: #87f3c9;
+    background-color: #ece6e7; //rgba(227, 219, 221, 0.61); //87f3c9
+}
+
+.light-bg {
+    background-color: #ece6e7; // rgba(227, 219, 221, 0.61);
+    border-radius: 1rem;
 }
 
 .font-awesome .fa {
@@ -49,10 +54,6 @@ body {
     margin-bottom: auto;
 }
 
-.light-bg {
-    background-color: rgba(227, 219, 221, 0.61);
-    border-radius: 1rem;
-}
 
 .different li {
     margin-top: 1.5rem;
@@ -115,4 +116,37 @@ ol.carousel-indicators li.active {
 
 .navbar a:hover .fa {
     color: rgba(0, 0, 0, 1);
+}
+
+.social-media-footer {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.social-media-footer a {
+    font-size: 2rem;
+}
+
+.social-media-footer a:link .fa,
+.social-media-footer a:visited .fa,
+.social-media-footer a:active .fa {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.social-media-footer a:hover .fa {
+    color: rgba(0, 0, 0, 1);
+}
+
+h1, h2, h3, h4, h5, h6,
+display-1, display-2, display-3, display-4 {
+    /* font-family: Source Sans Pro; */
+    font-family: Roboto Slab;
+}
+
+p, li, .navbar, .text-muted {
+    font-family: Open Sans;
+}
+
+code {
+    font-family: Fira Mono;
 }
