@@ -1,8 +1,13 @@
-
-
-body {
+body, 
+#accordion .collapse, 
+#accordion .show, 
+#accordion .collapsing {
     background-color: rgba(227, 219, 221, 0.16);
+}
+
+body { 
     margin-top: 6rem;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -11,7 +16,7 @@ body {
 
 .light-bg {
     background-color: #ece6e7; // rgba(227, 219, 221, 0.61);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .font-awesome .fa {
@@ -149,4 +154,12 @@ p, li, .navbar, .text-muted {
 
 code {
     font-family: Fira Mono;
+}
+
+.sidebar h6 {
+    margin-bottom: 1.5rem;
+}
+
+.sidebar {
+    margin-right: 2rem;
 }
