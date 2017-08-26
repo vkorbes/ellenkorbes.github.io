@@ -1,0 +1,172 @@
+body,html {
+    height: 100%;
+}
+
+/* must be relative for scrollspy to work */
+body {
+    position: relative;
+    background-color: black;
+}
+
+.min-100 {
+    min-height: 100vh;
+}
+
+/* .navbar.affix-top,
+.navbar.affix-bottom {
+  position: static;
+  width: 100% - 2rem;
+}
+
+.navbar.affix{
+  position: fixed;
+  width: 100% - 2rem;
+  top: 0;
+  z-index: 1;
+  background: #2e2354;
+  transition: all .35s ease;
+} */
+
+.navbar {
+    background-color: #2e2354;
+    color: #fcfcfc;
+    width: 100% - 2rem;
+    position: sticky;
+    top: 0;    
+}
+
+/* #sidemenu.affix-top, #sidemenu.affix {
+  position: static;
+}
+
+#sidemenu.affix-bottom {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+    #sidemenu.affix {
+      position: fixed;
+      top: 40px;
+    }
+}
+
+#sidemenu .nav-link.active,
+#sidemenu .nav-link:hover,
+#sidemenu .nav-link:focus{
+    color: #111;
+    border-bottom: 1px #000 dashed;
+} */
+
+.anchor{
+  display: block;
+  height: 70px;
+  //margin-top: -70px;
+  visibility: hidden;
+}
+
+#content .nav-link {
+    color: #555;
+    transition: all 0.2 ease;
+}
+
+footer a {
+    color: #ccc;
+}
+footer a:hover,
+footer a:focus{
+    color: #eee;
+}
+
+#header {
+    background: url("stars.jpg") no-repeat center center; 
+    /* -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%; */
+    background-size: cover;
+}
+
+.wrapper {
+    width: 80vw;
+    max-width: 50rem;
+    background-color: rgba(30, 30, 39, 0.8);
+    color: #fcfcfc;
+}
+
+.wrapper h2 {
+    color: #fcfcfc;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #CB92AF;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.navbar-brand {
+    width: 18rem;
+}
+
+.navbar-inverse .navbar-nav .nav-link a:link,
+.navbar-inverse .navbar-nav .nav-link a:visited,
+.navbar-inverse .navbar-nav .nav-link a:active,
+.navbar-inverse .navbar-nav .nav-link {
+    color: #fcfcfc;
+}
+
+.navbar-inverse .navbar-nav .nav-item a:hover {
+    color: #fcfcfc;
+    text-decoration: underline;
+}
+
+main, html {
+    background-color: #fcfcfc;
+    color: black;
+}
+
+.navbar-inverse .navbar-brand:focus, 
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-toggler:focus, 
+.navbar-inverse .navbar-toggler:hover {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler {
+    color: white !important;
+}
+
+.navbar .navbar-toggler .icon-bar {
+    background: white !important;
+  }
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.shades {
+    -webkit-box-shadow: 1rem 1rem 0px 0px #2e2354;
+    -moz-box-shadow: 1rem 1rem 0px 0px #2e2354;
+    box-shadow: 1rem 1rem 0px 0px #2D2354; // inset 0 0 1rem rgba(128, 128, 128, 0.31);
+    background-color: white;
+}
+
+.darkness {
+    background-color: black;
+}
+
+.sticky-top2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    z-index: 1020;
+}

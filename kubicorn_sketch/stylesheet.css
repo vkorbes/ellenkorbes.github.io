@@ -1,3 +1,4 @@
+
 body, 
 #accordion .collapse, 
 #accordion .show, 
@@ -7,7 +8,7 @@ body,
 
 body { 
     margin-top: 6rem;
-    min-height: 100vh;
+      
 }
 
 .navbar {
