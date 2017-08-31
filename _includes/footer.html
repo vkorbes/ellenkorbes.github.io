@@ -1,11 +1,76 @@
-<footer class="site-footer max-width">
- <p class="footer">Contact: {{ site.email }}</p>
- <p class="footer">
-   <a href="https://github.com/ellenkorbes">GitHub</a>
-   <a href="https://linkedin.com/in/ellen-korbes-a72631138">LinkedIn</a>
-   <a href="https://www.freecodecamp.com/ellenkorbes">freeCodeCamp</a>
-   <a href="https://twitter.com/ellenkorbes">Twitter</a>
- </p>
- <p class="footer"><a href="#top">Back to top</a></p>
+<div class="container-fluid d-flex justify-content-center navbar" id="content">
+  <div class="container">
+      <div class="row my-2 d-flex justify-content-center navbar">
+          <p class="small text-center m-0">Copyright © 2017 Ellen Körbes</p>
+          <!-- <div class="col-md-3 col-sm-6 pl-0">
+              <ul class="nav flex-column">
+                  <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 pl-0">
+              <ul class="nav flex-column">
+                  <li class="nav-item"><a href="#" class="nav-link">More</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Legal</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4 ml-auto text-right">
+              <small class="text-uppercase">Connect on social media</small>
+              <ul class="nav justify-content-end">
+                  <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-pinterest fa-lg"></i></a></li>
+                  <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-twitter fa-lg"></i></a></li>
+                  <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-instagram fa-lg"></i></a></li>
+                  <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                  <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-skype fa-lg"></i></a></li>
+              </ul>
+          </div>
+          <div class="col-12 text-right small">
+              @2017 Company Name
+          </div> -->
+      </div>
+      </div>
+  </div>
 
-</footer>
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+  crossorigin="anonymous"></script> -->
+  <script src="/assets/smooth-scroll.polyfills.min.js"></script>
+  <script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+var scroll = new SmoothScroll('a[href*="#"]', {
+	// Selectors
+	ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+	header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+	// Speed & Easing
+	speed: 500, // Integer. How fast to complete the scroll in milliseconds
+	offset: 128, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+	easing: 'easeInOutCubic', // Easing pattern to use
+	customEasing: function (time) {}, // Function. Custom easing pattern
+
+	// Callback API
+	before: function () {}, // Callback to run before scroll
+	after: function () {
+        $('.navbar-collapse').collapse('hide');
+    }, // Callback to run after scroll
+
+    header: '[data-scroll-header]'
+});
+</script>
+
+<script src="/assets/baguetteBox.min.js"></script>
+
+<script>
+        baguetteBox.run('.tz-gallery');
+    </script>

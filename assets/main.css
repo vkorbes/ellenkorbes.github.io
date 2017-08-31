@@ -1,127 +1,231 @@
-@media only screen and (max-width: 1024px)  {
-
-    .wrapIt {
-        display: flex;
-        align-items: center;
-        flex-flow: column nowrap;
-        overflow: scroll;
-        -webkit-overflow-scrolling: touch;
-        background: url(bg.jpg);
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        background-position: center center;
-        background-repeat: no-repeat;
-    }
-
-}
-
-html {
-        background: url(bg.jpg) no-repeat center center fixed;
-        background-size: cover;
-        height: 100%;
-        overflow: hidden;
-    }
-
 body {
-//    background: url("bg.jpg") no-repeat center center fixed;
-    display: flex;
-    align-items: center;
-//    height: 100vh;
-    flex-flow: column nowrap;
-//    background-color: #162406;
-//    background-size: cover;
-    margin: 0;
-
-    height:100%;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    
+    //position: relative;
+    background-color: black;
 }
 
-main, footer, header {
-    flex: 0 1 auto;
-width: 70vw;
-max-width: 38rem;
-    padding: 0 2rem;
+.min-100 {
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #2e2354;
+    color: #fcfcfc;
+    width: 100% - 2rem;
+    position: sticky;
+    top: 0;    
+}
+
+#content .nav-link {
+    color: #555;
+    transition: all 0.2 ease;
+}
+
+footer a {
+    color: #ccc;
+}
+footer a:hover,
+footer a:focus{
+    color: #eee;
+}
+
+#header {
+    background: url("/assets/stars.jpg") no-repeat center center; 
+    background-size: cover;
+}
+
+.wrapper {
+    width: 80vw;
+    max-width: 50rem;
     background-color: rgba(30, 30, 39, 0.8);
-    margin-top: 5.5rem;
-    padding-top: 1.1rem;
-    padding-bottom: 1.1rem;
+    color: #fcfcfc;
 }
 
-.top {
-    visibility: hidden;
-
+.wrapper h2 {
+    color: #fcfcfc;
 }
 
-footer {
-    margin-bottom: 7.7rem;
-    padding-bottom: 0.55rem;
-    padding-top: 0.55rem;
+
+.shades h1,
+.shades h2,
+.shades h3,
+.shades h4,
+.shades h5,
+.shades h6 {
+    text-transform: uppercase; 
+    font-family: "Open Sans Condensed";
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    line-height: 1.5;
-    color: white;
-    margin: 0;
-    text-transform: uppercase; }
-
-p, li {
-    font-family: 'Titillium Web', sans-serif;
-    line-height: 2rem;
-    color: white;
-    font-weight: 300;
-    font-size: 1.1rem;
+.shades h1 {
+    margin-bottom: 2rem;
 }
 
-.footer {
-    line-height: 1.5;
-    text-align: center; }
+.shades h2 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
 
 a, a:visited, a:hover, a:active {
-                           text-decoration: none;
-                           color: #CB92AF;
-                       }
+    text-decoration: none;
+    color: #CB92AF;
+}
 
 a:hover {
+text-decoration: underline;
+}
+
+.navbar-brand {
+    width: 18rem;
+}
+
+.navbar-inverse .navbar-nav .nav-link a:link,
+.navbar-inverse .navbar-nav .nav-link a:visited,
+.navbar-inverse .navbar-nav .nav-link a:active,
+.navbar-inverse .navbar-nav .nav-link {
+    color: #fcfcfc;
+}
+
+.navbar-inverse .navbar-nav .nav-item a:hover {
+    color: #fcfcfc;
     text-decoration: underline;
 }
 
-.navSpan {
-    flex: 1 1 0;
+main, html {
+    background-color: #fcfcfc;
+    color: black;
 }
 
-nav {
-    text-transform: uppercase;
+.navbar-inverse .navbar-brand:focus, 
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-toggler:focus, 
+.navbar-inverse .navbar-toggler:hover {
+    color: white !important;
 }
 
-.nav-items {
-    flow: 1 1 0;
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler {
+    color: white !important;
 }
 
-ul {
-    list-style-type: none;
-    //  padding: 0.55rem 0 1.1rem 0;
-    padding: 0;
-    margin: 0;
-    margin-top: 0.55rem;
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler {
+    color: white !important;
 }
 
-.nav-items li {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.45rem;
-    line-height: 1;
+.navbar .navbar-toggler .icon-bar {
+    background: white !important;
+  }
+
+.navbar-toggler-icon {
+  color: white;
 }
 
-.indexcat {
-    text-transform: none !important;
+.shades {
+    -webkit-box-shadow: 1rem 1rem 0px 0px #2e2354;
+    -moz-box-shadow: 1rem 1rem 0px 0px #2e2354;
+    box-shadow: 1rem 1rem 0px 0px #2D2354;
+    background-color: white;
+}
+
+.darkness {
+    background-color: black;
+}
+
+.sticky-top2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    z-index: 1020;
+}
+
+.bigicon {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .sticky-top2{
+        position: relative;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.strikediag {
+    display: inline-block;
+    position: relative;
+}
+
+.strikediag::before {
+    content: '';
+    position: absolute;
+    left: -0.1em;
+    right: -0.1em;
+    top: 0.38em;
+    bottom: 0.38em;
+    background: linear-gradient(to left top, transparent 45.5%, currentColor 47.5%, currentColor 52.5%, transparent 54.5%);
+    pointer-events: none;
+}
+
+
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 2rem;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    .container.gallery-container {
+        border-radius: 0;
+    }
 }

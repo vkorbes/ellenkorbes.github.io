@@ -1,0 +1,3 @@
+- Go & JavaScript
+- Funny
+- Grumpy only when making websites
