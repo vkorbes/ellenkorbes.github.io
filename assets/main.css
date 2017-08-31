@@ -162,7 +162,7 @@ main, html {
 @media screen and (max-width: 320px) {
 
     .navbar-brand {
-        width: 13rem;
+        width: 14rem;
     }
 }
 
