@@ -234,7 +234,7 @@ main, html {
     /* position: relative;
     height: 0;
     overflow: hidden; */
-    -webkit-transition: none;
+    /* -webkit-transition: none;
          -o-transition: none;
-            transition: none;
+            transition: none; */
   }

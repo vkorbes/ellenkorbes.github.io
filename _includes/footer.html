@@ -55,18 +55,22 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 
 	// Speed & Easing
 	speed: 500, // Integer. How fast to complete the scroll in milliseconds
-	offset: 128, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+	offset: 88, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
 	easing: 'easeInOutCubic', // Easing pattern to use
 	customEasing: function (time) {}, // Function. Custom easing pattern
 
 	// Callback API
-	before: function () {}, // Callback to run before scroll
-	after: function () {
+	before: function () { // Callback to run before scroll
         $('.navbar-collapse').collapse('hide');
+    },
+	after: function () {
     }, // Callback to run after scroll
 
     header: '[data-scroll-header]'
 });
+// var scroll = new SmoothScroll('.navbar',{
+// 		header: '[data-scroll-header]'
+// 	});
 </script>
 
 <script src="/assets/baguetteBox.min.js"></script>
