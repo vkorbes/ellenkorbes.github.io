@@ -229,3 +229,12 @@ main, html {
         border-radius: 0;
     }
 }
+
+.collapsing {
+    /* position: relative;
+    height: 0;
+    overflow: hidden; */
+    -webkit-transition: none;
+         -o-transition: none;
+            transition: none;
+  }
