@@ -120,6 +120,14 @@ $( "#side-genderidentity" ).click(function() {
     scroll7.animateScroll( anchor7, toggle7, options7 );
 });
 
+var scroll8 = new SmoothScroll('#logo', { offset: 0, ignore: '[null]'} );
+var anchor8 = document.querySelector( '#top' );
+var toggle8 = document.querySelector(' #logo ');
+var options8 = {  };
+$( "#logo" ).click(function() {
+    scroll8.animateScroll( anchor8, toggle8, options8 );
+});
+
 </script>
 
 <script src="/assets/baguetteBox.min.js"></script>

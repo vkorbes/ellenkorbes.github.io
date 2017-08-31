@@ -140,16 +140,29 @@ main, html {
 }
 
 @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
     .sticky-top2{
         position: relative;
         top: 0;
     }
-}
-
-@media screen and (max-width: 575px) {
     .container {
         margin-left: 0;
         margin-right: 0;
+    }
+    #bigtext {
+        font-size: 1.3rem;
+    }
+    .navbar-brand {
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .navbar-brand {
+        width: 13rem;
     }
 }
 
