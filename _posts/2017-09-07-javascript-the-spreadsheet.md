@@ -16,7 +16,7 @@ Hi! Today you're gonna learn about how to use JavaScript within Google Sheets, a
 
 Wait why would I wanna do that in the first place, you say?
 
-Well let's say you're a coder, and you have to do some spreadsheet work, and you've never really done any of it before, and you can't wrap your head around all those convoluted functions spreadsheets expect you to know... then there go. Don't. Just use JavaScript instead.
+Well let's say you're a coder, and you have to do some spreadsheet work, and you've never really done any of it before, and you can't wrap your head around all those convoluted functions spreadsheets expect you to know... then there you go. Don't. Just use JavaScript instead.
 
 The usual boilerplate: This ain't supposed to be no paragon of virtue, shining beacon of clean, efficient code. It's not even supposed to be the right way. It's just *a way* that worked for *me.*
 
