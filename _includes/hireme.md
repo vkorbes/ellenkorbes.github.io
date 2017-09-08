@@ -12,7 +12,7 @@ That's me.
 
 I'm currently looking for new professional opportunities. 
 
-Not those same good ol', stable jobs. I'm interested your crazy projects. Your skunkworks division. Your exciting, new zero-g rocket-surgery malware-countermeasures gig.
+Not those same good ol', stable jobs. I'm interested in your crazy projects. Your skunkworks division. Your exciting, new zero-g rocket-surgery malware-countermeasures gig.
 
 Right now my main interest is in back-end, golang, and/or infrastructure-related work.
 
