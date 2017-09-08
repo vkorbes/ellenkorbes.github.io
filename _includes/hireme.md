@@ -1,16 +1,21 @@
 # Hire me
 
-I'm currently looking for new professional opportunities.
+We all have people we can count on no matter the what. They're solid. Unshakeable. Come hell or high water, they're always the person you expect them to be.
 
-I have a preference for back-end, golang, and/or infrastructure-related projects. But if your project is crazy enough disregard all of that and let me hear it anyway.
+I'm not that kind of person.
 
-I'm a textbook case for working remotely. In my previous professional engagement I contracted full-time for a California-based company, and during the 2 years and 7 months of that experience I've proven to be everything they hoped for and then some.
+Others, they are never the same from one day to the next. They're constantly growing, learning, exploring new fields, carving new paths. They can't stand being where they've already been. They can't stand doing what they've already done.
 
-In [their words](https://www.upwork.com/freelancers/~01ebb90ef17a1f61b6):
+They're always a bit clumsy, as whenever they perfect something, they move on. Their only constant skill is that of learning; their only constant trait is adaptability. Moving, moving, moving, often without ever looking back to realise the how much they've done for those whose paths they've crossed.
 
-> "It has been a pleasure to work with Ellen. Greatly skilled, reliable and competent. Highly recommended."
-{:class="blockquote"}
+That's me.
 
-What motivates me the most in a project is learning new things and facing exciting challenges. If you're looking for someone who'll churn out the same rehashed product over and over, you're better off with someone else.
+I'm currently looking for new professional opportunities. 
 
-If you're in the business of zero-g rocket surgery malware countermeasures, get in touch.
+Not those same good ol', stable jobs. I'm interested your crazy projects. Your skunkworks division. Your exciting, new zero-g rocket-surgery malware-countermeasures gig.
+
+Right now my main interest is in back-end, golang, and/or infrastructure-related work.
+
+Oh, and I'm a textbook case for working remotely.
+
+I can't wait to hear from you.

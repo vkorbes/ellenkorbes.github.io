@@ -1,0 +1,59 @@
+<div class="container-fluid d-flex justify-content-center darkness" id="content">
+    <div class="" style="max-width: 1200px">
+
+        <!-- <a id="link-about"></a> -->
+        <div class="row mt-5">
+            <div class="col-md-3 shades mx-5 mb-5 p-0 h-25 sticky-top2">
+                <img class="img-fluid" src="/assets/ellen.png">
+                {% comment %}
+                {% capture my_include %}{% include about-side.md %}{% endcapture %}{{ my_include | markdownify }}
+                {% endcomment %}
+            </div>
+            <div class="col shades mb-5 mr-5 p-5">
+                {% capture my_include %}{% include about.md %}{% endcapture %}{{ my_include | markdownify }}
+            </div>
+        </div>
+
+        <!-- <a id="link-hire-me"></a> -->
+        <div class="row">
+            <div class="col-md-3 shades mx-5 mb-5 p-3 h-25 sticky-top2">
+                {% capture my_include %}{% include hireme-side.md %}{% endcapture %}{{ my_include | markdownify }}
+            </div>
+            <div class="col shades mb-5 mr-5 p-5">
+                {% capture my_include %}{% include hireme.md %}{% endcapture %}{{ my_include | markdownify }}
+            </div>
+        </div>
+
+        <!-- <a name="projects" class="anchor" id="projects"></a> -->
+        <div class="row">
+            <div class="col-md-3 shades mx-5 mb-5 p-3 h-25 sticky-top2">
+                {% capture my_include %}{% include projects-side.md %}{% endcapture %}{{ my_include | markdownify }}
+            </div>
+            <div class="col shades mb-5 mr-5 p-5">
+                {% capture my_include %}{% include projects.md %}{% endcapture %}{{ my_include | markdownify }}
+            </div>
+        </div>
+
+        <!-- <a name="journal" class="anchor" id="journal"></a> -->
+        <div class="row">
+            <div class="col-md-3 shades mx-5 mb-5 p-3 h-25 sticky-top2">
+                {% capture my_include %}{% include journal-side.md %}{% endcapture %}{{ my_include | markdownify }}
+            </div>
+            <div class="col shades mb-5 mr-5 p-5">
+                {% include journal.html %}
+            </div>
+        </div>
+
+        <!-- <a name="contact" class="anchor" id="contact"></a> -->
+        <div class="row">
+            <div class="col-md-3 shades mx-5 mb-5 p-5 h-25 sticky-top2">
+                {% capture my_include %}{% include contact-side.md %}{% endcapture %}{{ my_include | markdownify }}
+            </div>
+            <div class="col shades mb-5 mr-5 p-5">
+                {% capture my_include %}{% include contact.md %}{% endcapture %}{{ my_include | markdownify }}
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>

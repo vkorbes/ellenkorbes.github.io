@@ -1,12 +1,12 @@
 # About
 
-Hi. I’m Ellen Körbes. I'm a full-stack web developer based in Brazil.
+Hi. I’m Ellen Körbes. I'm a software developer based in Brazil.
 
-My focus is Go and JavaScript, and right now I'm secretly working on my first big, bad-ass, nuclear-grade app.
+I'm currently switching tracks, from front-end & JavaScript into back-end & golang. Go containers!
 
 In the past I’ve played classical violin for a living, wrote *way* too much dystopian fiction, and ran a restaurant.
 
-Yes I was born in Brazil, and learned English all by myself, and I've never set foot in an English-speaking country. (Oh, and I translate patent applications on the side!)
+Oh, and yes, I was born in Brazil, and learned English all by myself without ever set foot in an English-speaking country. (And nowadays I translate patent applications on the side! Yay me!)
 
 My go-to coding soundtrack is [TimeCop1983](https://timecop1983.bandcamp.com/).
 

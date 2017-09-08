@@ -1,1 +1,1 @@
-> "I write rad shit yo."
+> “Writing is like prostitution. First you do it for love, and then for a few close friends, and then for money.” ― Molière
