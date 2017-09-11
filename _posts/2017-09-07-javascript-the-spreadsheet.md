@@ -20,7 +20,7 @@ Well let's say you're a coder, and you have to do some spreadsheet work, and you
 
 The usual boilerplate: This ain't supposed to be no paragon of virtue, shining beacon of clean, efficient code. It's not even supposed to be the right way. It's just *a way* that worked for *me.*
 
-And before I forget, be warned, you're gonna have some fun here.
+And before I forget, just a heads up: you're gonna have some fun here.
 
 ## Backstory
 
@@ -46,7 +46,7 @@ Brilliant.
 
 Except, of course, whenever any one tiny bit of anything in there had to change. 
 
-To this day I'm haunted with the memories of being forced, time and time again, to re-submerge into that regexiferian maelstrom of mindbending lunacy.
+To this day I'm haunted by the memories of being forced, time and time again, to re-submerge into that regexiferian maelstrom of mindbending lunacy.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Regexiferian<br>re·ge·xi·fe·ri·an /ˈreɡeksəfərēən/<br>adj.<br>1. in an unrecoverably insanity-inducing manner<br>2. relating to or denoting said horrors</p>&mdash; ellen marshmellen (@ellenkorbes) <a href="https://twitter.com/ellenkorbes/status/906205812472864768">September 8, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
