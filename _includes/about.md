@@ -2,12 +2,12 @@
 
 Hi. I’m Ellen Körbes. I'm a software developer based in Brazil.
 
-I'm currently switching tracks, from front-end & JavaScript into back-end & golang. Go containers!
+I'm currently working to produce the best golang online courses to ever be made available in the Portuguese language.
 
-In the past I’ve played classical violin for a living, wrote *way* too much dystopian fiction, and ran a restaurant.
-
-Oh, and yes, I was born in Brazil, and learned English all by myself without ever setting foot in an English-speaking country. (And nowadays I translate patent applications on the side! Yay me!)
+Sometimes people refer to me as "the girl who made the kubicorn website." It's cute, [check it out](http://kubicorn.io/).
 
 My go-to coding soundtrack is [TimeCop1983](https://timecop1983.bandcamp.com/).
 
-Say `hi` on <a href="https://twitter.com/intent/tweet?text=@ellenkorbes%20Hi!" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>!
+And in the past I’ve played classical violin for a living, wrote *way* too much dystopian fiction, and ran a restaurant.
+
+Say hi on <a href="https://twitter.com/intent/tweet?text=@ellenkorbes%20Hi!" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>!

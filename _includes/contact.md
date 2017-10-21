@@ -1,6 +1,6 @@
 # Contact
 
-<form method="POST" action="http://formspree.io/hire@ellen.today">
+<form method="POST" action="http://formspree.io/e@ellenkorbes.com">
     <div class="form-group">
         <input type="email" name="email" placeholder="your@email.adress" class="form-control" >
     </div>
