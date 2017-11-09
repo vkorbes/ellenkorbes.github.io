@@ -7,6 +7,7 @@ headline: "Can't make heads or tails out of spreadsheets? Wish you could just ha
 description: "Can't make heads or tails out of spreadsheets? Wish you could just hack away at it instead with actual code? Well it's your lucky day!"
 image: /assets/posts/15.png
 author: Ellen Körbes
+tags: javascript
 
 ---
 
