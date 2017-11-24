@@ -11,6 +11,9 @@ tags: javascript
 
 ---
 
+* TOC
+{:toc}
+
 ## Intro
 
 Hi! Today you're gonna learn about how to use JavaScript within Google Sheets, and have a blast doing it.
@@ -892,5 +895,4 @@ Celebration photo by chuttersnap on [Unsplash](https://unsplash.com/).
 
 Math bit from "hacker code" adapted from [lolcat](https://github.com/busyloop/lolcat) & [lolgopher](https://github.com/kris-nova/lolgopher).
 
-* TOC
-{:toc}
+
