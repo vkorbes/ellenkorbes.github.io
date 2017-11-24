@@ -23,6 +23,11 @@ The usual boilerplate: This ain't supposed to be no paragon of virtue, shining b
 
 And before I forget, just a heads up: you're gonna have some fun here.
 
+## Contents
+
+* TOC
+{:toc}
+
 ## Backstory
 
 Feel free to skip this.
@@ -891,6 +896,3 @@ Celebration photo by chuttersnap on [Unsplash](https://unsplash.com/).
 [Pride Gopher](https://github.com/ashleymcnamara/gophers/blob/master/pride1.png) created by [Ashley McNamara](https://twitter.com/ashleymcnamara), based on original artwork from [Renee French](http://reneefrench.blogspot.com/).
 
 Math bit from "hacker code" adapted from [lolcat](https://github.com/busyloop/lolcat) & [lolgopher](https://github.com/kris-nova/lolgopher).
-
-* TOC
-{:toc}
