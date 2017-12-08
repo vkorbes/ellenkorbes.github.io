@@ -2,7 +2,14 @@
 
 Hi. I’m Ellen Körbes. I'm a software developer based in Brazil.
 
-I'm currently working to produce the best golang online courses to ever be made available in the Portuguese language.
+I'm currently working as an intern software developer on the Kubernetes SIG-CLI group, more specifically messing around with `kubectl create` functionality. This internship was made possible thanks to [Outreachy](https://www.outreachy.org/) and [CNCF](https://www.cncf.io/).
+
+And also I'm currently producing a Portuguese-language version of the most watched Golang course ever, together with [Todd McLeod](https://twitter.com/Todd_McLeod) and [Greater Commons](https://greatercommons.com/).
+
+I really enjoy speaking in public. My first talk ever is up on my YouTube [channel](https://www.youtube.com/channel/UCxD5EE0H7qOhRr0tIVsOZPQ) right now; more to be added soon.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DgwFkclhnIM" frameborder="0" allowfullscreen></iframe>
+<br>
 
 Sometimes people refer to me as "the girl who made the kubicorn website." It's cute, [check it out](http://kubicorn.io/).
 
