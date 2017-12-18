@@ -8,9 +8,6 @@ And also I'm currently producing a Portuguese-language version of the most watch
 
 I really enjoy speaking in public. My first talk ever is up on my YouTube [channel](https://www.youtube.com/channel/UCxD5EE0H7qOhRr0tIVsOZPQ) right now; more to be added soon.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DgwFkclhnIM" frameborder="0" allowfullscreen></iframe>
-<br>
-
 Sometimes people refer to me as "the girl who made the kubicorn website." It's cute, [check it out](http://kubicorn.io/).
 
 My go-to coding soundtrack is [TimeCop1983](https://timecop1983.bandcamp.com/).
