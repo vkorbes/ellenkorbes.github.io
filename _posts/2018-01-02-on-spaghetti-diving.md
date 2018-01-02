@@ -35,7 +35,9 @@ A lot of it feels like spaghetti *to me*, but what is that saying... *spaghetti 
 I mean, to me the definition of spaghetti is when you have an event somewhat like:
 
 a. You need to figure out some fairly simple, innocuous functionality.
+
 b. ???
+
 c. You have 8 different packages open on different IDE windows, each IDE with 20 open files, each file with a code block selected that you absolutely can't make sense of by itself and that's why you you were looking into the 19 other files to begin with.
 
 Now item `c` there, it will drive you bonkers. It's hard to keep track of a journey that long, and if you try—and you will—you'll go nuts.
