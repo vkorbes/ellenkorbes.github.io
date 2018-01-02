@@ -82,6 +82,6 @@ My point here being, the time you spend banging your head against seemingly intr
 
 That's it for now.
 
-Things are finally to make sense. Yay.
+Things are finally starting to make sense. Yay.
 
 Thanks for reading, and I'll see you in a couple weeks. Next update's on the 15th!
