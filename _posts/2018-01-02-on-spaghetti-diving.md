@@ -40,7 +40,7 @@ I mean, to me the definition of spaghetti is when you have an event somewhat lik
 
 1. You have 8 different packages open on different IDE windows, each IDE with 20 open files, each file with a code block selected that you absolutely can't make sense of by itself and that's why you you were looking into the 19 other files to begin with.
 
-Now item `c` there, it will drive you bonkers. It's hard to keep track of a journey that long, and if you try—and you will—you'll go nuts.
+Now item `3` there, it will drive you bonkers. It's hard to keep track of a journey that long, and if you try—and you will—you'll go nuts.
 
 I don't really have a solution here. If you try to keep track of things by memory you'll go nuts. If you try writing down how the whole thing works, 1. congrats on the effort and 2. I suspect you'll go nuts just the same.
 
