@@ -10,13 +10,13 @@ author: Ellen Körbes
 tags: outreachy
 ---
 
-# This isn't the 50s
+## This isn't the 50s
 
 I see tons of articles on remote working out there written by old hags from a time when people owned houses and companies would pay you to sit around in your underwear two days out of every seven.
 
 Outreachy internships all consist of remote work, and I was talking to a fellow Outreachy intern yesterday who has some difficulties about it, so I thought I'd visit the subject. Since I have a few years of hands-on experience on the matter, and not much else to report otherwise, here are a few tips that actually apply to the realities of 2018.
 
-# "How do I keep my work life separate from my personal life?"
+## "How do I keep my work life separate from my personal life?"
 
 This is the most pervasive myth about about remote work. Truth is you don't have to keep things separate. 
 
@@ -26,11 +26,11 @@ Ask any double agent whether it makes them happy to live two separate, distinct 
 
 And before you start with the common excuses not to do this... kids make you old, relationships end, your health's gonna go eventually anyway, and "friends" are really just interested in you babysitting their cats when they go out of town.
 
-# "How do I organize my work hours?"
+## "How do I organize my work hours?"
 
 All hours are work hours. Next!
 
-# "How do I communicate properly with my coworkers?"
+## "How do I communicate properly with my coworkers?"
 
 Another common myth about remote working is that you should overcommunicate. That's not true at all. People won't like you if you talk too much, and your boss has better things to do like catching up on Netflix and posting dank memes on reddit.
 
@@ -42,11 +42,11 @@ I mean, when someone says "hey yo wats up you got a sec" the whole subtext is pr
 
 If it's an emergency and you *really* need to get your point across, just use a gif.
 
-# "How to stay motivated when working on my own?"
+## "How to stay motivated when working on my own?"
 
 If you stop working you'll starve to death and die. Fuck yeah capitalism.
 
-# "What if my boss asks me to do something I'm not qualified for?"
+## "What if my boss asks me to do something I'm not qualified for?"
 
 This is where remote work really shines. In an IRL job this is where your boss would notice how underqualified you really are and fire you. Since now you have the magic of the intertubes between you and that jerk, you can keep scamming the sucker for a bit longer.
 
@@ -60,7 +60,7 @@ Any of these sentences will instantly make you sound amazing. While everyone is 
 
 Remember, remote work means working on the computer all day. And computer shit is easy. It's all on YouTube. Just watch a few vids and you'll be fine.
 
-# Extras
+## Extras
 
 And in closing, here are a few extra tips do make sure you'll do as well as you possibly can:
 
