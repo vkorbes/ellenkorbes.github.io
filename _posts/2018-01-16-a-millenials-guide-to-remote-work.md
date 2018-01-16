@@ -10,7 +10,7 @@ author: Ellen Körbes
 tags: outreachy
 ---
 
-## This isn't the 50s
+## This isn't 1960
 
 I see tons of articles on remote working out there written by old hags from a time when people owned houses and companies would pay you to sit around in your underwear two days out of every seven.
 
