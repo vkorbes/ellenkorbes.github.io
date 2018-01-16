@@ -28,7 +28,7 @@ And before you start with the common excuses not to do this... kids make you old
 
 # "How do I organize my work hours?"
 
-All hours are work hours. Next!\
+All hours are work hours. Next!
 
 # "How do I communicate properly with my coworkers?"
 
