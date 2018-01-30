@@ -1,0 +1,210 @@
+---
+layout: post
+title:  "The WTF of UTF-8"
+date:   2018-01-30
+categories: journal
+headline: "UTF-8 is amazing (when you RTFM)."
+description: "UTF-8 is amazing (when you RTFM)."
+image: /assets/posts/newhat.jpg
+author: Ellen Körbes
+tags: utf-8
+---
+
+Back in my day, if you wanted to have a voice chat with your bff you needed to put coins into these huge-ass smartphones they had bolted on to the sidewalk, then turn a dial based on some random number assigned to your friend, and then that'd make a slightly smaller smartphone plugged into a wall at your friend's house make noises, and it meant someone wanted to have a voice chat.
+
+My point is, I'm old. And as an old person, I grew up using ASCII. 
+
+ASCII is simple:
+
+```go
+	x := "I'm so hungry right now."
+	for i := 0; i < len(x); i++ {
+		fmt.Printf("%-3v → %4d → %08b\n", string(x[i]), x[i], x[i])
+	}
+```
+
+↓
+
+```
+I   →   73 → 01001001
+'   →   39 → 00100111
+m   →  109 → 01101101
+    →   32 → 00100000
+s   →  115 → 01110011
+o   →  111 → 01101111
+    →   32 → 00100000
+h   →  104 → 01101000
+u   →  117 → 01110101
+[...]
+```
+
+One byte per character. One character per byte. Beautiful.
+
+Then I took a break from computering for a few years, and when I came back there was this whole UTF-8 thing.
+
+So I learned about runes and whatever (that's Go if you're wondering), and for a while, functionally at least, everything was fine.
+
+But y'know, I'm a curious person, and there's nothing I don't get curious about eventually.
+
+Which led me to...
+
+```go
+	x := "Ó o auê aí, ô!" // Perfectly valid Portuguese BTW. (Not really.)
+	for i := 0; i < len(x); i++ {
+		fmt.Printf("%-3v → %4d → %8b\n", string(x[i]), x[i], x[i])
+	}
+```
+
+↓
+
+```
+Ã   →  195 → 11000011
+   →  147 → 10010011
+    →   32 → 00100000
+o   →  111 → 01101111
+    →   32 → 00100000
+a   →   97 → 01100001
+u   →  117 → 01110101
+Ã   →  195 → 11000011
+ª   →  170 → 10101010
+[...]
+```
+
+I mean, of course, right? UTF-8 needs more than one character per byte, else how would it encode a billion different characters?
+
+```go
+	// Pardon the shit code. I'm really hungry.
+	x := "Ó o auê aí, ô!"
+	p := 0
+	for i, v := range x {
+		fmt.Printf(" → Size: %v byte(s).\n%-3v → %4d", i-p, string(v), v)
+		p = i
+	}
+```
+
+↓
+
+```
+[...]
+Ó   →  211 → Size: 2 byte(s).
+[...]
+ê   →  234 → Size: 2 byte(s).
+[...]
+í   →  237 → Size: 2 byte(s).
+[...]
+ô   →  244 → Size: 2 byte(s).
+[...]
+```
+
+So those funny characters take more than one byte (and in UTF-8 a character may take up to four).
+
+Fine.
+
+But... how does it work?
+
+1. Do accent bytes connect with ASCII bytes to form the new characters?
+2. Are there separator bytes in between character bytes, meaning anything in between separators get lumped together?
+3. Is this black magic of some sort?
+
+Let's see:
+
+```go
+	// a + ~ = ã, right?
+	ã := []byte{97, 126}
+	fmt.Println(string(ã))
+	// And can we spot a pattern of repeating separators?
+	x := "Ó o auê aí, ô!"
+	for _, v := range x {
+		fmt.Printf("%v ", v)
+	}
+```
+
+↓
+
+```
+a~
+211 32 111 32 97 117 234 32 97 237 44 32 244 33 
+```
+
+No and no. Well gosh darn it.
+
+(And about #3, my otherwordly consultants said it isn't.)
+
+So... how?
+
+At this point I spent ages trying to solve this on my own, and then I [RTFM](https://en.wikipedia.org/wiki/UTF-8#Description) at last. Here's the important bit, adapted from WP:
+
+| Number of bytes | Bits for code point | Byte 1 | Byte 2 | Byte 3 | Byte 4 |
+| --- | --- | --- | --- | --- | --- |
+| 1 |7| 0xxxxxxx | | | |
+| 2 | 11 | 110xxxxx | 10xxxxxx | | |
+| 3 | 16 | 1110xxxx | 10xxxxxx | 10xxxxxx | |
+| 4 | 21 | 11110xxx | 10xxxxxx | 10xxxxxx | 10xxxxxx |
+
+Meaning:
+
+- If your byte starts with a zero, that's a normal ASCII character.
+- If your byte starts with a 110, you got a two-byte character.
+- If your byte starts with a 1110, you got a three-byte character.
+- 11110 means four.
+- And all 10* bytes are "connectors," so to speak.
+
+To see if this works:
+
+```go
+	x := "aã香🤔"
+	for i := 0; i < len(x); i++ {
+		fmt.Printf("%08b ", x[i])
+	}
+```
+
+Let's ponder this before I show you the output. We have four characters there, and their code points are: U+0061, U+00E3, U+9999, and U+1F914. They should be one, two, three, and four bytes long respectively.
+
+Meaning we should have:
+
+- For our first character: one byte starting with a zero.
+- Second character: one byte starting with 110, followed by another starting with a 10.
+- Third character: first byte starts with 1110, next two start with 10.
+- Fourth character: first byte starts with 11110, the next three start with 10.
+
+Let's see:
+
+```
+01100001 11000011 10100011 11101001 10100110 10011001 11110000 10011111 10100100 10010100
+```
+
+Reshuffled a bit for clarity:
+
+1. 01100001
+2. **110**00011 **10**100011
+3. **1110**1001 **10**100110 **10**011001
+4. **11110**000 **10**011111 **10**100100 **10**010100
+
+Awesome!
+
+Now let's see if the remaining bits, apart from all that signaling, actually form the numbers we're looking for:
+
+- 110**00011** 10**100011** → 00011 100011
+- 1110**1001** 10**100110** 10**011001** → 1001 100110 011001
+- 11110**000** 10**011111** 10**100100** 10**010100** → 000 011111 100100 010100
+
+Which we can use to:
+
+```go
+	a, _ := strconv.ParseInt("00011100011", 2, 64)
+	b, _ := strconv.ParseInt("1001100110011001", 2, 64)
+	c, _ := strconv.ParseInt("000011111100100010100", 2, 64)
+	fmt.Printf("%x %x %x", a, b, c)
+```
+
+The output here is `e3 9999 1f914`. In other words:
+
+- 00011100011 → 0xE3 (ã)
+- 1001100110011001 → 0x9999 (香)
+- 000011111100100010100 → 0x1F914 (🤔)
+
+So there we go. 
+
+All is good in the world now.
+
+We know how UTF-8 does its magic.
