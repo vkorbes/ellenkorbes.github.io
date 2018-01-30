@@ -10,6 +10,8 @@ author: Ellen Körbes
 tags: utf-8
 ---
 
+## The WTF of UTF-8
+
 Back in my day, if you wanted to have a voice chat with your bff you needed to put coins into these huge-ass smartphones they had bolted on to the sidewalk, then turn a dial based on some random number assigned to your friend, and then that'd make a slightly smaller smartphone plugged into a wall at your friend's house make noises, and it meant someone wanted to have a voice chat.
 
 My point is, I'm old. And as an old person, I grew up using ASCII. 
