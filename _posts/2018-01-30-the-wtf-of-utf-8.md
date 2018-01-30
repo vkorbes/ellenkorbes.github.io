@@ -19,10 +19,10 @@ My point is, I'm old. And as an old person, I grew up using ASCII.
 ASCII is simple:
 
 ```go
-	x := "I'm so hungry right now."
-	for i := 0; i < len(x); i++ {
-		fmt.Printf("%-3v → %4d → %08b\n", string(x[i]), x[i], x[i])
-	}
+x := "I'm so hungry right now."
+for i := 0; i < len(x); i++ {
+    fmt.Printf("%-3v → %4d → %08b\n", string(x[i]), x[i], x[i])
+}
 ```
 
 ↓
@@ -51,10 +51,10 @@ But y'know, I'm a curious person, and there's nothing I don't get curious about 
 Which led me to...
 
 ```go
-	x := "Ó o auê aí, ô!" // Perfectly valid Portuguese BTW. (Not really.)
-	for i := 0; i < len(x); i++ {
-		fmt.Printf("%-3v → %4d → %8b\n", string(x[i]), x[i], x[i])
-	}
+x := "Ó o auê aí, ô!" // Perfectly valid Portuguese BTW. (Not really.)
+for i := 0; i < len(x); i++ {
+    fmt.Printf("%-3v → %4d → %8b\n", string(x[i]), x[i], x[i])
+}
 ```
 
 ↓
@@ -75,13 +75,13 @@ u   →  117 → 01110101
 I mean, of course, right? UTF-8 needs more than one character per byte, else how would it encode a billion different characters?
 
 ```go
-	// Pardon the shit code. I'm really hungry.
-	x := "Ó o auê aí, ô!"
-	p := 0
-	for i, v := range x {
-		fmt.Printf(" → Size: %v byte(s).\n%-3v → %4d", i-p, string(v), v)
-		p = i
-	}
+// Pardon the shit code. I'm really hungry.
+x := "Ó o auê aí, ô!"
+p := 0
+for i, v := range x {
+    fmt.Printf(" → Size: %v byte(s).\n%-3v → %4d", i-p, string(v), v)
+    p = i
+}
 ```
 
 ↓
@@ -111,14 +111,14 @@ But... how does it work?
 Let's see:
 
 ```go
-	// a + ~ = ã, right?
-	ã := []byte{97, 126}
-	fmt.Println(string(ã))
-	// And can we spot a pattern of repeating separators?
-	x := "Ó o auê aí, ô!"
-	for _, v := range x {
-		fmt.Printf("%v ", v)
-	}
+// a + ~ = ã, right?
+ã := []byte{97, 126}
+fmt.Println(string(ã))
+// And can we spot a pattern of repeating separators?
+x := "Ó o auê aí, ô!"
+for _, v := range x {
+    fmt.Printf("%v ", v)
+}
 ```
 
 ↓
@@ -154,10 +154,10 @@ Meaning:
 To see if this works:
 
 ```go
-	x := "aã香🤔"
-	for i := 0; i < len(x); i++ {
-		fmt.Printf("%08b ", x[i])
-	}
+x := "aã香🤔"
+for i := 0; i < len(x); i++ {
+    fmt.Printf("%08b ", x[i])
+}
 ```
 
 Let's ponder this before I show you the output. We have four characters there, and their code points are: U+0061, U+00E3, U+9999, and U+1F914. They should be one, two, three, and four bytes long respectively.
@@ -193,10 +193,10 @@ Now let's see if the remaining bits, apart from all that signaling, actually for
 Which we can use to:
 
 ```go
-	a, _ := strconv.ParseInt("00011100011", 2, 64)
-	b, _ := strconv.ParseInt("1001100110011001", 2, 64)
-	c, _ := strconv.ParseInt("000011111100100010100", 2, 64)
-	fmt.Printf("%x %x %x", a, b, c)
+a, _ := strconv.ParseInt("00011100011", 2, 64)
+b, _ := strconv.ParseInt("1001100110011001", 2, 64)
+c, _ := strconv.ParseInt("000011111100100010100", 2, 64)
+fmt.Printf("%x %x %x", a, b, c)
 ```
 
 The output here is `e3 9999 1f914`. In other words:
