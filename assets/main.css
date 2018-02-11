@@ -1,6 +1,8 @@
 body {
     //position: relative;
     background-color: black;
+    /* font-family: "Open Sans Condensed"; */
+    /* font-family: "Noto Sans"; */
 }
 
 .min-100 {
@@ -407,3 +409,11 @@ main, html {
 #post-content #markdown-toc {
     //display: none;
 }
+
+img.emoji {  
+    // Override any img styles to ensure Emojis are displayed inline
+    margin: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    display: inline !important;
+  }
