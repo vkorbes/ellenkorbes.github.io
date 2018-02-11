@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Millenial's Guide To Remote Work"
-date:   2018-01-02
+date:   2018-01-16
 categories: journal
 headline: "There are tons of articles on remote working out there written by old hags from a time when people owned houses and companies would pay you to sit around in your underwear two days out of every seven. Here's what 2018 actually looks like."
 description: "There are tons of articles on remote working out there written by old hags from a time when people owned houses and companies would pay you to sit around in your underwear two days out of every seven. Here's what 2018 actually looks like."
