@@ -5,9 +5,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
   <title>{{ site.title  | xml_escape }}</title>
-  <description>Posts tagged as 'outreachy'</description>
-     <atom:link href="{{ site.url }}/feed.blog.xml" rel="self" type="application/rss+xml" />
-  <link>{{ site.url }}/feed.blog.xml</link>
+  <description>Posts</description>
+     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+  <link>{{ site.url }}/feed.xml</link>
 
   {% for post in site limit:10 %}
    <item>
