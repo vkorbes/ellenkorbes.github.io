@@ -3,8 +3,8 @@ layout: post
 title:  "Internship status update!"
 date:   2018-02-22
 categories: journal
-headline: "I got my first big PR in, the internship is drawing to a close, and I'm in the interview process with a super cool company! Outreachy internship post 3/7."
-description: "I got my first big PR in, the internship is drawing to a close, and I'm in the interview process with a super cool company! Outreachy internship post 3/7."
+headline: "I got my first big PR in, the internship is drawing to a close, and I'm in the interview process with a super cool company!"
+description: "I got my first big PR in, the internship is drawing to a close, and I'm in the interview process with a super cool company!"
 image: /assets/posts/k8s.png
 author: Ellen Körbes
 tags: outreachy

@@ -3,8 +3,8 @@ layout: post
 title:  "On Spaghetti Diving"
 date:   2018-01-02
 categories: journal
-headline: "It's quicksand for your sanity. Outreachy internship post 2/7."
-description: "It's quicksand for your sanity. Outreachy internship post 2/7."
+headline: "It's quicksand for your sanity."
+description: "It's quicksand for your sanity."
 image: /assets/posts/k8s.png
 author: Ellen Körbes
 tags: outreachy

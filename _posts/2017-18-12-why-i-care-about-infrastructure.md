@@ -3,8 +3,8 @@ layout: post
 title:  "Why I Care About Infrastructure"
 date:   2017-12-18
 categories: journal
-headline: "Why I care about infrastructure, and my first steps on doing something about it. Outreachy internship post 1/7."
-description: "Why I care about infrastructure, and my first steps on doing something about it. Outreachy internship post 1/7."
+headline: "Why I care about infrastructure, and my first steps on doing something about it."
+description: "Why I care about infrastructure, and my first steps on doing something about it."
 image: /assets/posts/k8s.png
 author: Ellen Körbes
 tags: outreachy
