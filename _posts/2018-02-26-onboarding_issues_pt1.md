@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Internship status update!"
+title:  "Onboarding issues in large-scale open source projects: let's talk Kubernetes — part #1"
 date:   2018-02-26
 categories: journal
 headline: "Onboarding is a huge issue in large projects. In this series we'll discuss these issues, some solutions, and how the Kubernetes community is doing an amazing job with this."
