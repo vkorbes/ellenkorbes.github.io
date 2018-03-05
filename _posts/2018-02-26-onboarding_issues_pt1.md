@@ -116,3 +116,7 @@ And making things easy, unfortunately, is really hard.
 —
 
 Check back next week to see how.
+
+—
+
+Thank you for reading! If you enjoyed this article please share it, and make sure to subscribe to [dEffective Go](deffectivego.com)!
