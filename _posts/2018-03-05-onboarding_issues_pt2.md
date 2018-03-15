@@ -160,4 +160,4 @@ Check back next week and we'll see what the Kubernetes community is doing about 
 
 —
 
-Thank you for reading! If you enjoyed this article please share it, and make sure to subscribe to [dEffective Go](deffectivego.com)!
+Thank you for reading! If you enjoyed this article please share it, and make sure to subscribe to [dEfective Go](defectivego.com)!

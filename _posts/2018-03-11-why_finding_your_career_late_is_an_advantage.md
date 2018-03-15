@@ -120,6 +120,6 @@ There’s time.
 
 —
 
-Thank you for reading! If you enjoyed this article please share it, and make sure to subscribe to [dEffective Go](http://www.defectivego.com/)!
+Thank you for reading! If you enjoyed this article please share it, and make sure to subscribe to [dEfective Go](http://www.defectivego.com/)!
 
 *[Unless you’re trans](https://www12.senado.leg.br/noticias/especiais/especial-cidadania/expectativa-de-vida-de-transexuais-e-de-35-anos-metade-da-media-nacional). But that’s a whole ‘nother discussion.

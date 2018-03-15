@@ -119,4 +119,4 @@ Check back next week to see how.
 
 —
 
-Thank you for reading! If you enjoyed this article please share it, and make sure to subscribe to [dEffective Go](deffectivego.com)!
+Thank you for reading! If you enjoyed this article please share it, and make sure to subscribe to [dEfective Go](defectivego.com)!
