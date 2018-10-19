@@ -14,17 +14,17 @@
             </div>
         </div>
 
-        {% comment %}
         <!-- <a id="link-hire-me"></a> -->
         <div class="row">
             <div class="col-md-3 shades mx-5 mb-5 p-3 h-25 sticky-top2">
-                {% capture my_include %}{% include hireme-side.md %}{% endcapture %}{{ my_include | markdownify }}
+                {% capture my_include %}{% include talks-side.md %}{% endcapture %}{{ my_include | markdownify }}
             </div>
             <div class="col shades mb-5 mr-5 p-5">
-                {% capture my_include %}{% include hireme.md %}{% endcapture %}{{ my_include | markdownify }}
+                {% capture my_include %}{% include talks.md %}{% endcapture %}{{ my_include | markdownify }}
             </div>
         </div>
         
+        {% comment %}
         <!-- <a name="projects" class="anchor" id="projects"></a> -->
         <div class="row">
             <div class="col-md-3 shades mx-5 mb-5 p-3 h-25 sticky-top2">
