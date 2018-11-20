@@ -1,14 +1,13 @@
 # Talks
 
-## Upcoming:
+#### Bringing Magic To Microservice Architecture Development (Talk)
+November, 2018 — At GOTO Copenhagen 2018. Click [here](https://gotocph.com/2018/sessions/598) for more info. [Slides](/assets/bringing-magic-to-microservice-architecture-development-GOTO.pdf).
 
-#### Buzzword-Stuffed & Technically Sound: Distributed machine learning for centralized blockchain in a serverless architecture (Talk)
-November, 2018 — At GOTO Copenhagen 2018. Click [here](https://gotocph.com/2018/sessions/598) for more info.
+#### Bringing Magic To Microservice Architecture Development (Talk)
+November, 2018 - At the Berlin AWS User Group. [Info](https://www.meetup.com/aws-berlin/events/255059982/). [Slides](/assets/bringing-magic-to-microservice-architecture-development-Velocity.pdf)
 
-#### Distributed-Systems Development Made Fun Again With the Garden Engine (Talk)
-November, 2018 — At O'Reilly Velocity London 2018. Click [here](https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/71723) for more info.
-
-## Previous:
+#### Bringing Magic To Microservice Architecture Development (Talk)
+November, 2018 — At O'Reilly Velocity London 2018. Click [here](https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/71723) for more info. [Slides](/assets/bringing-magic-to-microservice-architecture-development-Velocity.pdf)
 
 #### Onboarding Issues in Large Open-Source Projects (Talk)
 May, 2018 — The title is self-explanatory. At a GOTO Nights CPH meetup, at Trifork A/S, Copenhagen.
@@ -20,7 +19,7 @@ April, 2018 — A talk about the basics of the Go language. At a Women Who Go Fl
 April, 2018 — A talk about the latest release of the Go language. At the The Developer's Conference Florianópolis 2018 conference.
 
 #### Onboarding Issues in Large Open-Source Projects (Keynote)
-April, 2018 — The title is self-explanatory. At the The Developer's Conference Florianópolis 2018 conference.
+April, 2018 — The title is self-explanatory. At the The Developer's Conference Florianópolis 2018 conference. [Slides](/assets/tdc2018.pdf)
 
 #### What's New In Go 1.10 (Talk)
 March, 2018 — A talk about the latest release of the Go language. At a Gophers Floripa meetup, at Involves Tecnologia.
