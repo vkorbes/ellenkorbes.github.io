@@ -2,21 +2,24 @@
 
 ## Future
 
-#### Kubernetes Day 3: The State of Kubernetes Development Tooling
+#### Go & Kubernetes Sitting In A Tree (Workshop)
+July 2019 — More info soon.
+
+#### Kubernetes Day 3: The State of Kubernetes Development Tooling (Talk)
 2019 — Confirmed, conference name still TBD.
 
-#### Learn Neural Networks With Go—Not Math!
+#### Learn Neural Networks With Go—Not Math! (Talk)
 2019 — Confirmed, conference name still TBD.
 
-#### TBD
+#### TBD (Talk)
 March, 2019 — At dotGo, Paris.
 
 ## Past
 
-#### Go Modules: What They Are And Why You Should Care
+#### Go Modules: What They Are And Why You Should Care (Talk)
 January, 2019 — The basics of working with Go modules. GDG Berlin Golang meetup, at SysEleven in Berlin. See the [event page](https://www.meetup.com/golang-users-berlin/events/257304860/) for the full abstract. [Slides](http://ellenkorbes.com/assets/go-modules.pdf).
 
-#### Perspectives In Tech
+#### Perspectives In Tech (Talk)
 January, 2019 — General advice for young students in getting started in their tech careers. At Leipziger Informatikstudentinnen group, Universität Leipzig.
 
 #### Bringing Magic To Microservice Architecture Development (Talk)
