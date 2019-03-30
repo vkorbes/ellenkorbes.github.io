@@ -29,9 +29,7 @@ January, 2019 — The basics of working with Go modules. GDG Berlin Golang meetu
 January, 2019 — General advice for young students in getting started in their tech careers. At Leipziger Informatikstudentinnen group, Universität Leipzig.
 
 #### Bringing Magic To Microservice Architecture Development (Talk)
-November, 2018 — At GOTO Copenhagen 2018. Click [here](https://gotocph.com/2018/sessions/598) for more info. [Slides](/assets/bringing-magic-to-microservice-architecture-development-GOTO.pdf).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/accEvqeUJWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+November, 2018 — At GOTO Copenhagen 2018. Click [here](https://gotocph.com/2018/sessions/598) for more info. [Slides](/assets/bringing-magic-to-microservice-architecture-development-GOTO.pdf). [Recording](https://www.youtube.com/watch?v=accEvqeUJWs).
 
 #### Bringing Magic To Microservice Architecture Development (Talk)
 November, 2018 - At the Berlin AWS User Group. [Info](https://www.meetup.com/aws-berlin/events/255059982/). [Slides](/assets/bringing-magic-to-microservice-architecture-development-Velocity.pdf)
