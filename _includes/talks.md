@@ -18,7 +18,7 @@ June, 2019 — How to achieve an optimal development workflow when developing fo
 May, 2019 — Code, not math! Algorithms, not logarithms! At DevDays Europe 2019, in Vilnius. [Info](https://devdays.lt/golang/).
 
 ### Go For Phallic Object Generation! (Talk)
-May, 2019 — Installing a vagina requires specialized tooling. At BangBangCon, in New York. [Info](http://bangbangcon.com/speakers.html#ellen-k%C3%B6rbes)
+May, 2019 — Installing a vagina requires specialized tooling. At BangBangCon, in New York. [Info](http://bangbangcon.com/speakers.html#ellen-k%C3%B6rbes).
 
 ## Previous
 
