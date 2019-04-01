@@ -15,9 +15,12 @@ July, 2019 — Code, not math! Algorithms, not logarithms! At O'Reilly Open Sour
 June, 2019 — How to achieve an optimal development workflow when developing for Kubernetes. At ContainerDays, Hamburg. [Info](https://www.containerdays.io/speakers/).
 
 #### Learn Neural Networks With Go—Not Math! (Talk)
+May, 2019 — Code, not math! Algorithms, not logarithms! At GopherCon Europe 2019, in Tenerife. [Info](https://www.gophercon.es/#speakers).
+
+#### Learn Neural Networks With Go—Not Math! (Talk)
 May, 2019 — Code, not math! Algorithms, not logarithms! At DevDays Europe 2019, in Vilnius. [Info](https://devdays.lt/golang/).
 
-### Go For Phallic Object Generation! (Talk)
+#### Go For Phallic Object Generation! (Talk)
 May, 2019 — Installing a vagina requires specialized tooling. At BangBangCon, in New York. [Info](http://bangbangcon.com/speakers.html#ellen-k%C3%B6rbes).
 
 ## Previous
