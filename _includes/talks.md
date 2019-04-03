@@ -3,7 +3,7 @@
 ## Upcoming
 
 #### Kubernetes Day 3: The State of Kubernetes Development Tooling (Talk)
-July, 2019 — How to achieve an optimal development workflow when developing for Kubernetes. At GOTO Berlin. [Info](https://gotober.com/2019/sessions/821).
+October, 2019 — How to achieve an optimal development workflow when developing for Kubernetes. At GOTO Berlin. [Info](https://gotober.com/2019/sessions/821).
 
 #### Go & Kubernetes Sitting In A Tree (Workshop)
 July 2019 — Kubernetes might be the new black for many things, but it's a nightmare for developers. In this workshop we'll make sense of the whole thing, take away the scary bits, and make sure you'll once again feel at home as you write code. A workhshop by me & [Francesc Campoy](https://campoy.cat/). At [GopherCon](https://www.gophercon.com/) 2019, San Diego. [Further info here](https://www.gophercon.com/agenda/session/70232).
