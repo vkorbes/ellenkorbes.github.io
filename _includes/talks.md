@@ -17,6 +17,8 @@ July, 2019 — Code, not math! Algorithms, not logarithms! At O'Reilly Open Sour
 #### Kubernetes Day 3: The State of Kubernetes Development Tooling (Talk)
 June, 2019 — How to achieve an optimal development workflow when developing for Kubernetes. At ContainerDays, Hamburg. [Info](https://www.containerdays.io/speakers/).
 
+## Previous
+
 #### Learn Neural Networks With Go—Not Math! (Talk)
 May, 2019 — Code, not math! Algorithms, not logarithms! At GopherCon Europe 2019, in Tenerife. [Info](https://www.gophercon.es/#speakers).
 
@@ -24,12 +26,10 @@ May, 2019 — Code, not math! Algorithms, not logarithms! At GopherCon Europe 20
 May, 2019 — Code, not math! Algorithms, not logarithms! At DevDays Europe 2019, in Vilnius. [Info](https://devdays.lt/golang/).
 
 #### Go For Phallic Object Generation! (Talk)
-May, 2019 — Installing a vagina requires specialized tooling. At BangBangCon, in New York. [Info](http://bangbangcon.com/speakers.html#ellen-k%C3%B6rbes).
-
-## Previous
+May, 2019 — Installing a vagina requires specialized tooling. At BangBangCon, in New York. [Info](http://bangbangcon.com/speakers.html#ellen-k%C3%B6rbes). [Recording](https://www.youtube.com/watch?v=u18KOCcnRpI).
 
 #### Go For Phallic Object Generation (Talk)
-March, 2019 — A live demo using the `sdfx` and `fauxgl` libraries. At [dotGo](https://dotgo.eu), Paris.
+March, 2019 — A live demo using the `sdfx` and `fauxgl` libraries. At [dotGo](https://dotgo.eu), Paris. [Recording](https://www.youtube.com/watch?v=ZACOc-NwV0c&t=4s).
 
 #### Go Modules: What They Are And Why You Should Care (Talk)
 January, 2019 — The basics of working with Go modules. GDG Berlin Golang meetup, at SysEleven in Berlin. See the [event page](https://www.meetup.com/golang-users-berlin/events/257304860/) for the full abstract. [Slides](http://ellenkorbes.com/assets/go-modules.pdf).
