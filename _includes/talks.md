@@ -8,8 +8,22 @@ December, 2019 — How to achieve an optimal development workflow when developin
 #### Learn Neural Networks With Go—Not Math!
 October, 2019 — Code, not math! Algorithms, not logarithms! At Codemotion Berlin. [Info](https://events.codemotion.com/conferences/berlin/2019/wp-content/themes/event/detail-talk.php?detail=14172).
 
+## Previous
+
+#### The Quest For The Snappiest Go & Kubernetes Workflow
+November, 2019 — Trying everything to get the smallest possible time between code-change and the new process running in my cluster. At DevFest Berlin. [Info](https://2019.devfest-berlin.de/schedule/2019-11-09?sessionId=1024).
+
 #### The State of Kubernetes Development Tooling
 November, 2019 — How to achieve an optimal development workflow when developing for Kubernetes. At Velocity Berlin. [Info](https://conferences.oreilly.com/velocity/vl-eu/public/schedule/detail/78849).
+
+#### Learn Neural Networks With Go—Not Math!
+November, 2019 — Code, not math! Algorithms, not logarithms! At GDG Lviv, Ukraine. [Info](https://www.meetup.com/GDG-Lviv/events/265819746/).
+
+#### The Quest For The Snappiest Go & Kubernetes Workflow
+November, 2019 — Trying everything to get the smallest possible time between code-change and the new process running in my cluster. At GDG Lviv, Ukraine. [Info](https://www.meetup.com/GDG-Lviv/events/265819746/).
+
+#### The State of Kubernetes Development Tooling
+October, 2019 — How to achieve an optimal development workflow when developing for Kubernetes. At the Open Source Summit EU, in Lyon, France. [Info](https://osseu19.sched.com/event/TLKy/the-state-of-kubernetes-development-tooling-ellen-korbes-garden).
 
 #### Learn Neural Networks With Go—Not Math!
 October, 2019 — Code, not math! Algorithms, not logarithms! At Trondheim Developer Conference, Norway. [Info](https://2019.trondheimdc.no/program/4c0f0426028f4cc6929077db55ef6781).
@@ -25,8 +39,6 @@ October, 2019 — Code, not math! Algorithms, not logarithms! At Kyiv Go Meetup,
 
 #### The State of Kubernetes Development Tooling
 September, 2019 — How to achieve an optimal development workflow when developing for Kubernetes. At Cloud Native London. [Info](https://skillsmatter.com/conferences/11723-cloudnative-london-2019#program).
-
-## Previous
 
 #### Go & Kubernetes Sitting In A Tree (Workshop)
 July 2019 — Kubernetes might be the new black for many things, but it's a nightmare for developers. In this workshop we'll make sense of the whole thing, take away the scary bits, and make sure you'll once again feel at home as you write code. A workhshop by me & [Francesc Campoy](https://campoy.cat/). At [GopherCon](https://www.gophercon.com/) 2019, San Diego. [Further info here](https://www.gophercon.com/agenda/session/70232).
