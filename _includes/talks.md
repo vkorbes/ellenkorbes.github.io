@@ -2,13 +2,17 @@
 
 ## Upcoming
 
+#### Go & Kubernetes In The Real World (Workshop)
+
+April, 2020 — "Kubernetes solved a lot of problems, but it created a clumsy development workflow. In this workshop, you’ll learn your way past that, and how to work effectively with Kubernetes as a developer." At GopherCon Europe, in Berlin. [Info](https://gophercon.berlin/workshops/).
+
+## Previous
+
 #### The State of Kubernetes Development Tooling
 December, 2019 — How to achieve an optimal development workflow when developing for Kubernetes. At DevOpsCon Munich. [Info](https://devopsconference.de/kubernetes-ecosystem/kubernetes-day-3-the-state-of-kubernetes-development-tooling/).
 
 #### Learn Neural Networks With Go—Not Math!
 October, 2019 — Code, not math! Algorithms, not logarithms! At Codemotion Berlin. [Info](https://events.codemotion.com/conferences/berlin/2019/wp-content/themes/event/detail-talk.php?detail=14172).
-
-## Previous
 
 #### The Quest For The Snappiest Go & Kubernetes Workflow
 November, 2019 — Trying everything to get the smallest possible time between code-change and the new process running in my cluster. At DevFest Berlin. [Info](https://2019.devfest-berlin.de/schedule/2019-11-09?sessionId=1024).
