@@ -8,6 +8,7 @@
 * May 21: [Software Circus.](https://www.softwarecircus.io/)
 * August 19: [KubeCon Europe.](https://kccnceu20.sched.com/event/Zet3)
 * August 24–26: [Devoxx UK.](https://www.devoxx.co.uk/speaker-details/?id=14360)
+* October: TBD.
 
 #### The Quest For The Fastest Deployment Time
 
@@ -21,7 +22,12 @@
 #### Go & Kubernetes In The Real World (Workshop)
 
 * July: [GopherCon Berlin.](https://gophercon.berlin/workshops/)
+* October: TBD.
 * November 12–14: [GopherCon US.](https://www.gophercon.com/agenda/session/221873)
+
+#### Write a Kubernetes Operator in Go
+
+* TBD.
 
 ## Previous
 
