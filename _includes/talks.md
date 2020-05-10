@@ -12,13 +12,15 @@ August 19: [KubeCon Europe.](https://kccnceu20.sched.com/event/Zet3)
 
 August 24–26: [Devoxx UK.](https://www.devoxx.co.uk/speaker-details/?id=14360)
 
-#### The Quest For The Fastest Deployment 
+#### The Quest For The Fastest Deployment Time
+
+January 15: [Berlin Go Meetup.](https://www.meetup.com/golang-users-berlin/events/263948199/)
 
 April 1: [Cloud Native Virtual Summit featuring Kubernetes.](https://cloudnativevirtualsummit2020.sched.com/event/bZUK)
 
-April 8: [Fique Em Casa Conf.](https://www.youtube.com/playlist?list=PLf-O3X2-mxDmn0ikyO7OF8sPr2GDQeZXk) [Recording (in Portuguese).](https://www.youtube.com/watch?v=itzm_ZNN74s)
+April 8: [Fique Em Casa Conf.](https://www.youtube.com/playlist?list=PLf-O3X2-mxDmn0ikyO7OF8sPr2GDQeZXk) → [Recording (in Portuguese).](https://www.youtube.com/watch?v=itzm_ZNN74s)
 
-April 26: [Go Remote Fest.](https://www.goremotefest.com/) [Recording.](https://www.youtube.com/watch?v=E8JgnAYWSvA)
+April 26: [Go Remote Fest.](https://www.goremotefest.com/) → [Recording.](https://www.youtube.com/watch?v=E8JgnAYWSvA)
 
 October 12–15: [DevOpsCon Berlin.](https://devopscon.io/kubernetes-ecosystem/the-quest-for-the-fastest-deployment-time/)
 
