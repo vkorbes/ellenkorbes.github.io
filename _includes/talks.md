@@ -25,7 +25,7 @@
 * October: TBD.
 * November 12–14: [GopherCon US.](https://www.gophercon.com/agenda/session/221873)
 
-#### Write a Kubernetes Operator in Go
+#### Live-Coding a Kubernetes Operator in Go
 
 * TBD.
 
