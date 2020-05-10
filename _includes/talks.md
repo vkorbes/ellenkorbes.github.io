@@ -1,10 +1,34 @@
 # Talks
 
-## Upcoming
+## 2020
+
+#### Toolchains Behind Successful Kubernetes Development Workflows
+
+February 27: [Women Who Go Berlin.](https://www.meetup.com/Women-Who-Go-Berlin/events/268449764/)
+
+May 21: [Software Circus.](https://www.softwarecircus.io/)
+
+August 19: [KubeCon Europe.](https://kccnceu20.sched.com/event/Zet3)
+
+August 24–26: [Devoxx UK.](https://www.devoxx.co.uk/speaker-details/?id=14360)
+
+#### The Quest For The Fastest Deployment 
+
+April 1: [Cloud Native Virtual Summit featuring Kubernetes.](https://cloudnativevirtualsummit2020.sched.com/event/bZUK)
+
+April 8: [Fique Em Casa Conf.](https://www.youtube.com/playlist?list=PLf-O3X2-mxDmn0ikyO7OF8sPr2GDQeZXk) [Recording (in Portuguese).](https://www.youtube.com/watch?v=itzm_ZNN74s)
+
+April 26: [Go Remote Fest.](https://www.goremotefest.com/) [Recording.](https://www.youtube.com/watch?v=E8JgnAYWSvA)
+
+October 12–15: [DevOpsCon Berlin.](https://devopscon.io/kubernetes-ecosystem/the-quest-for-the-fastest-deployment-time/)
+
+November 12–14: [GopherCon US.](https://www.gophercon.com/agenda/session/230265)
 
 #### Go & Kubernetes In The Real World (Workshop)
 
-April, 2020 — "Kubernetes solved a lot of problems, but it created a clumsy development workflow. In this workshop, you’ll learn your way past that, and how to work effectively with Kubernetes as a developer." At GopherCon Europe, in Berlin. [Info](https://gophercon.berlin/workshops/).
+July: [GopherCon Berlin.](https://gophercon.berlin/workshops/)
+
+November 12–14: [GopherCon US.](https://www.gophercon.com/agenda/session/221873)
 
 ## Previous
 
