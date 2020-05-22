@@ -116,7 +116,7 @@ April, 2018 — A talk about the basics of the Go language. At a Women Who Go Fl
 April, 2018 — A talk about the latest release of the Go language. At the The Developer's Conference Florianópolis 2018 conference.
 
 #### Onboarding Issues in Large Open-Source Projects
-April, 2018 — The title is self-explanatory. At the The Developer's Conference Florianópolis 2018 conference. [Slides](/assets/tdc2018.pdf)
+April, 2018 — The title is self-explanatory. At the The Developer's Conference Florianópolis 2018 conference. [Slides](/assets/tdc2018.pdf). [Video](https://www.eventials.com/Globalcode/tdc-floripa-2018-stadium-quarta-4/).
 
 #### What's New In Go 1.10
 March, 2018 — A talk about the latest release of the Go language. At a Gophers Floripa meetup, at Involves Tecnologia.
