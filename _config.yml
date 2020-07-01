@@ -19,8 +19,8 @@ description: > # this means to ignore newlines until "baseurl:"
   L Körbes - Developer Relations
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://lk.cool" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: l_korbes
-github_username:  l-korbes
+twitter_username: ellenkorbes
+github_username: ellenkorbes
 permalink: :title/
 
 # Build settings
