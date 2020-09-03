@@ -552,9 +552,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_068.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Угомонись пока я тебя не прирезал, угомонись, угомонись чорт блять.
 
-**Meaning:**
+**Meaning:** Google Translate says, *calm down before I slaughter you, calm down, calm down damn fuck*.
 
 ***
 
