@@ -26,13 +26,13 @@ This is an onomatopoeia for a kiss.
 
 ***
 
-## 3. ти иё ебобо?
+## 3. ти тё ебобо?
 
 <img src="Catsuporolsya_005.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Ты что, ебалась?
 
-**Meaning:**
+**Meaning:** What, did you fuck?
 
 ***
 
@@ -40,9 +40,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_006.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** *sounds of kissing tbh*
 
-**Meaning:**
+**Meaning:** Smooch. Don't smooch
 
 ***
 
@@ -64,7 +64,7 @@ This is an onomatopoeia for a kiss.
 
 **Russian:** Я люблю.
 
-**Meaning:** *I like.*
+**Meaning:** I'm with love(refering to like.. I've done this with love)
 
 ***
 
@@ -72,9 +72,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_013.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:** сейчас ???
+**Russian:** Сейчас ущипну. Не щипай жопу
 
-**Meaning:**
+**Meaning:** Will pinch. Doooooon't pinch my ass!
 
 ***
 
@@ -102,9 +102,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_016.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Чего тебе
 
-**Meaning:**
+**Meaning:** What do you want/need?
 
 ***
 
@@ -112,7 +112,7 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_017.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** 
 
 **Meaning:** *Хехе* is Cyrillic for *hehe*. Выпуту means "let go."
 
@@ -122,9 +122,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_018.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Чмок. Тише, я сплю
 
-**Meaning:**
+**Meaning:** Smooch. Quite, I'm sleeping
 
 ***
 
@@ -132,9 +132,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_020.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Ты пидор
 
-**Meaning:**
+**Meaning:** You're f*got
 
 ***
 
@@ -162,7 +162,7 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_023.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:** Грустный.
+**Russian:** Грустнo.
 
 **Meaning:** *Sad.*
 
@@ -172,9 +172,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_024.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Я в ахуе
 
-**Meaning:**
+**Meaning:** I'm completely fucking surprised. (fuck, this word is a piece of art)
 
 ***
 
@@ -202,9 +202,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_027.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** фууу(or фу)
 
-**Meaning:**
+**Meaning:** *sounds of disgust*
 
 ***
 
@@ -228,13 +228,13 @@ This is an onomatopoeia for a kiss.
 
 ***
 
-## 23.
+## 23. Ныа в ебучку))) Ай((
 
 <img src="Catsuporolsya_030.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** На в ебало, Ай
 
-**Meaning:**
+**Meaning:** Take that to your fucking face))) Ouch((
 
 ***
 
@@ -242,9 +242,7 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_031.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
-
-**Meaning:**
+**Meaning:** Another Russian slang for a dick(писос). OR something quite surprising(пипец)
 
 ***
 
@@ -262,9 +260,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_033.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Выебу
 
-**Meaning:**
+**Meaning:** Will fuck u
 
 ***
 
@@ -292,9 +290,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_036.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Нет
 
-**Meaning:**
+**Meaning:** No
 
 ***
 
@@ -302,9 +300,7 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_037.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
-
-**Meaning:**
+**Meaning:** Total jingle-bells
 
 ***
 
@@ -312,9 +308,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_038.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** eeeee мальчик
 
-**Meaning:**
+**Meaning:** Just being happy about some guy idk
 
 ***
 
@@ -322,9 +318,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_039.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Да ёбанный в рот
 
-**Meaning:**
+**Meaning:** Another Russian version of saying "well fuck"
 
 ***
 
@@ -332,9 +328,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_040.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** На ебало себе написaй
 
-**Meaning:**
+**Meaning:** Piss on your own (ugly) face
 
 ***
 
@@ -342,9 +338,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_041.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Ну и всё
 
-**Meaning:**
+**Meaning:** Well, thats it
 
 ***
 
@@ -352,9 +348,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_042.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Ну пожалуйста, умоляю тебя
 
-**Meaning:**
+**Meaning:** Please, I beg you
 
 ***
 
@@ -372,9 +368,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_046.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Жопу себе лизни
 
-**Meaning:**
+**Meaning:** Lick your ass
 
 ***
 
@@ -382,9 +378,7 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_047.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
-
-**Meaning:**
+**Meaning:** Came up to my conclusions
 
 ***
 
@@ -392,9 +386,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_048.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Я больше не буду
 
-**Meaning:**
+**Meaning:** I don't want to anymore
 
 ***
 
@@ -402,9 +396,7 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_049.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
-
-**Meaning:**
+**Meaning:** I understood.
 
 ***
 
@@ -412,9 +404,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_050.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Понятно
 
-**Meaning:**
+**Meaning:** Understood
 
 ***
 
@@ -422,9 +414,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_051.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Ясно
 
-**Meaning:**
+**Meaning:** Clear
 
 ***
 
@@ -432,9 +424,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_052.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** 
 
-**Meaning:**
+**Meaning:** Mash of multiple Russia curse words together that ultimately doesn't make sense
 
 ***
 
@@ -442,9 +434,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_053.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Мечтаю
 
-**Meaning:**
+**Meaning:** Dreaming
 
 ***
 
@@ -472,9 +464,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_058.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Моя хорошая
 
-**Meaning:**
+**Meaning:** Essencially sayingt that she's mine and she's good
 
 ***
 
@@ -482,9 +474,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_059.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Не хочу
 
-**Meaning:**
+**Meaning:** Don't want to
 
 ***
 
@@ -492,9 +484,7 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_060.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
-
-**Meaning:**
+**Meaning:** Cute way of saying biting
 
 ***
 
@@ -502,9 +492,9 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_061.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Тебе пизда
 
-**Meaning:**
+**Meaning:** You're over(but using female genitalia as a curse word)
 
 ***
 
@@ -512,9 +502,7 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_062.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
-
-**Meaning:**
+**Meaning:** What are you, fucked up? 
 
 ***
 
@@ -522,19 +510,17 @@ This is an onomatopoeia for a kiss.
 
 <img src="Catsuporolsya_063.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
+**Russian:** Твоё сердечко?
 
-**Meaning:**
+**Meaning:** Your heart(but said in a cute way)?
 
 ***
 
-## 53.
+## 53. Что смотришь дебил приемный?
 
 <img src="Catsuporolsya_066.webp.jpg" alt="Meme" width="256"/><br>
 
-**Russian:**
-
-**Meaning:**
+**Meaning:** What are you looking at, you adopted idiot?
 
 ***
 
